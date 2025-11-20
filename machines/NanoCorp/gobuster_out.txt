@@ -1,0 +1,60 @@
+===============================================================
+Gobuster v3.8
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://nanocorp.htb
+[+] Method:                  GET
+[+] Threads:                 20
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.8
+[+] Extensions:              php
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+/# license, visit http://creativecommons.org/licenses/by-sa/3.0/.php (Status: 403) [Size: 301]
+/# license, visit http://creativecommons.org/licenses/by-sa/3.0/ (Status: 403) [Size: 301]
+/img                  (Status: 301) [Size: 334] [--> http://nanocorp.htb/img/]
+/css                  (Status: 301) [Size: 334] [--> http://nanocorp.htb/css/]
+/js                   (Status: 301) [Size: 333] [--> http://nanocorp.htb/js/]
+/examples             (Status: 503) [Size: 401]
+/licenses             (Status: 403) [Size: 420]
+/IMG                  (Status: 301) [Size: 334] [--> http://nanocorp.htb/IMG/]
+/*checkout*           (Status: 403) [Size: 301]
+/*checkout*.php       (Status: 403) [Size: 301]
+/CSS                  (Status: 301) [Size: 334] [--> http://nanocorp.htb/CSS/]
+/Img                  (Status: 301) [Size: 334] [--> http://nanocorp.htb/Img/]
+/JS                   (Status: 301) [Size: 333] [--> http://nanocorp.htb/JS/]
+/phpmyadmin           (Status: 403) [Size: 301]
+/webalizer            (Status: 403) [Size: 301]
+/*docroot*            (Status: 403) [Size: 301]
+/*docroot*.php        (Status: 403) [Size: 301]
+/*                    (Status: 403) [Size: 301]
+/*.php                (Status: 403) [Size: 301]
+/con                  (Status: 403) [Size: 301]
+/con.php              (Status: 403) [Size: 301]
+/**http%3a            (Status: 403) [Size: 301]
+/**http%3a.php        (Status: 403) [Size: 301]
+/*http%3A.php         (Status: 403) [Size: 301]
+/*http%3A             (Status: 403) [Size: 301]
+/aux                  (Status: 403) [Size: 301]
+/aux.php              (Status: 403) [Size: 301]
+/**http%3A.php        (Status: 403) [Size: 301]
+/**http%3A            (Status: 403) [Size: 301]
+/**http%3A%2F%2Fwww   (Status: 403) [Size: 301]
+/**http%3A%2F%2Fwww.php (Status: 403) [Size: 301]
+/slick                (Status: 301) [Size: 336] [--> http://nanocorp.htb/slick/]
+/server-status        (Status: 403) [Size: 420]
+/devinmoore*          (Status: 403) [Size: 301]
+/devinmoore*.php      (Status: 403) [Size: 301]
+/200109*              (Status: 403) [Size: 301]
+/200109*.php          (Status: 403) [Size: 301]
+/*dc_.php             (Status: 403) [Size: 301]
+/*sa_.php             (Status: 403) [Size: 301]
+/*sa_                 (Status: 403) [Size: 301]
+/*dc_                 (Status: 403) [Size: 301]
+Progress: 441116 / 441116 (100.00%)
+===============================================================
+Finished
+===============================================================

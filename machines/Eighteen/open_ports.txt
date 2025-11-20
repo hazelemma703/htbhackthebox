@@ -1,0 +1,11 @@
+# Nmap 7.95 scan initiated Tue Nov 18 13:17:52 2025 as: /usr/lib/nmap/nmap --open -oN open_ports.txt 10.10.11.95
+Nmap scan report for 10.10.11.95
+Host is up (0.19s latency).
+Not shown: 997 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+80/tcp   open  http
+1433/tcp open  ms-sql-s
+5985/tcp open  wsman
+
+# Nmap done at Tue Nov 18 13:18:15 2025 -- 1 IP address (1 host up) scanned in 22.99 seconds
