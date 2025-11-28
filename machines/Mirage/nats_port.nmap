@@ -1,0 +1,56 @@
+# Nmap 7.95 scan initiated Thu Nov 27 18:13:38 2025 as: /usr/lib/nmap/nmap -p4222 -sC -sV -oN nats_port.nmap 10.10.11.78
+Nmap scan report for mirage.htb (10.10.11.78)
+Host is up (0.13s latency).
+
+PORT     STATE SERVICE         VERSION
+4222/tcp open  vrml-multi-use?
+| fingerprint-strings: 
+|   GenericLines: 
+|     INFO {"server_id":"NAWTVISGWNHU64LTFD2WL2NE3CEPVIAOIIQFMVQILLNEZA3LQWCIBRBJ","server_name":"NAWTVISGWNHU64LTFD2WL2NE3CEPVIAOIIQFMVQILLNEZA3LQWCIBRBJ","version":"2.11.3","proto":1,"git_commit":"a82cfda","go":"go1.24.2","host":"0.0.0.0","port":4222,"headers":true,"auth_required":true,"max_payload":1048576,"jetstream":true,"client_id":20,"client_ip":"10.10.14.242","xkey":"XDDVFRIMWAUGY263VIIM5GFXBRVEFHKOYRFRUJT273TXQ2KVVEFS3FYI"} 
+|     -ERR 'Authorization Violation'
+|   GetRequest: 
+|     INFO {"server_id":"NAWTVISGWNHU64LTFD2WL2NE3CEPVIAOIIQFMVQILLNEZA3LQWCIBRBJ","server_name":"NAWTVISGWNHU64LTFD2WL2NE3CEPVIAOIIQFMVQILLNEZA3LQWCIBRBJ","version":"2.11.3","proto":1,"git_commit":"a82cfda","go":"go1.24.2","host":"0.0.0.0","port":4222,"headers":true,"auth_required":true,"max_payload":1048576,"jetstream":true,"client_id":21,"client_ip":"10.10.14.242","xkey":"XDDVFRIMWAUGY263VIIM5GFXBRVEFHKOYRFRUJT273TXQ2KVVEFS3FYI"} 
+|     -ERR 'Authorization Violation'
+|   HTTPOptions: 
+|     INFO {"server_id":"NAWTVISGWNHU64LTFD2WL2NE3CEPVIAOIIQFMVQILLNEZA3LQWCIBRBJ","server_name":"NAWTVISGWNHU64LTFD2WL2NE3CEPVIAOIIQFMVQILLNEZA3LQWCIBRBJ","version":"2.11.3","proto":1,"git_commit":"a82cfda","go":"go1.24.2","host":"0.0.0.0","port":4222,"headers":true,"auth_required":true,"max_payload":1048576,"jetstream":true,"client_id":22,"client_ip":"10.10.14.242","xkey":"XDDVFRIMWAUGY263VIIM5GFXBRVEFHKOYRFRUJT273TXQ2KVVEFS3FYI"} 
+|     -ERR 'Authorization Violation'
+|   NULL: 
+|     INFO {"server_id":"NAWTVISGWNHU64LTFD2WL2NE3CEPVIAOIIQFMVQILLNEZA3LQWCIBRBJ","server_name":"NAWTVISGWNHU64LTFD2WL2NE3CEPVIAOIIQFMVQILLNEZA3LQWCIBRBJ","version":"2.11.3","proto":1,"git_commit":"a82cfda","go":"go1.24.2","host":"0.0.0.0","port":4222,"headers":true,"auth_required":true,"max_payload":1048576,"jetstream":true,"client_id":19,"client_ip":"10.10.14.242","xkey":"XDDVFRIMWAUGY263VIIM5GFXBRVEFHKOYRFRUJT273TXQ2KVVEFS3FYI"} 
+|_    -ERR 'Authentication Timeout'
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port4222-TCP:V=7.95%I=7%D=11/27%Time=6928CD15%P=x86_64-pc-linux-gnu%r(N
+SF:ULL,1D0,"INFO\x20{\"server_id\":\"NAWTVISGWNHU64LTFD2WL2NE3CEPVIAOIIQFM
+SF:VQILLNEZA3LQWCIBRBJ\",\"server_name\":\"NAWTVISGWNHU64LTFD2WL2NE3CEPVIA
+SF:OIIQFMVQILLNEZA3LQWCIBRBJ\",\"version\":\"2\.11\.3\",\"proto\":1,\"git_
+SF:commit\":\"a82cfda\",\"go\":\"go1\.24\.2\",\"host\":\"0\.0\.0\.0\",\"po
+SF:rt\":4222,\"headers\":true,\"auth_required\":true,\"max_payload\":10485
+SF:76,\"jetstream\":true,\"client_id\":19,\"client_ip\":\"10\.10\.14\.242\
+SF:",\"xkey\":\"XDDVFRIMWAUGY263VIIM5GFXBRVEFHKOYRFRUJT273TXQ2KVVEFS3FYI\"
+SF:}\x20\r\n-ERR\x20'Authentication\x20Timeout'\r\n")%r(GenericLines,1D1,"
+SF:INFO\x20{\"server_id\":\"NAWTVISGWNHU64LTFD2WL2NE3CEPVIAOIIQFMVQILLNEZA
+SF:3LQWCIBRBJ\",\"server_name\":\"NAWTVISGWNHU64LTFD2WL2NE3CEPVIAOIIQFMVQI
+SF:LLNEZA3LQWCIBRBJ\",\"version\":\"2\.11\.3\",\"proto\":1,\"git_commit\":
+SF:\"a82cfda\",\"go\":\"go1\.24\.2\",\"host\":\"0\.0\.0\.0\",\"port\":4222
+SF:,\"headers\":true,\"auth_required\":true,\"max_payload\":1048576,\"jets
+SF:tream\":true,\"client_id\":20,\"client_ip\":\"10\.10\.14\.242\",\"xkey\
+SF:":\"XDDVFRIMWAUGY263VIIM5GFXBRVEFHKOYRFRUJT273TXQ2KVVEFS3FYI\"}\x20\r\n
+SF:-ERR\x20'Authorization\x20Violation'\r\n")%r(GetRequest,1D1,"INFO\x20{\
+SF:"server_id\":\"NAWTVISGWNHU64LTFD2WL2NE3CEPVIAOIIQFMVQILLNEZA3LQWCIBRBJ
+SF:\",\"server_name\":\"NAWTVISGWNHU64LTFD2WL2NE3CEPVIAOIIQFMVQILLNEZA3LQW
+SF:CIBRBJ\",\"version\":\"2\.11\.3\",\"proto\":1,\"git_commit\":\"a82cfda\
+SF:",\"go\":\"go1\.24\.2\",\"host\":\"0\.0\.0\.0\",\"port\":4222,\"headers
+SF:\":true,\"auth_required\":true,\"max_payload\":1048576,\"jetstream\":tr
+SF:ue,\"client_id\":21,\"client_ip\":\"10\.10\.14\.242\",\"xkey\":\"XDDVFR
+SF:IMWAUGY263VIIM5GFXBRVEFHKOYRFRUJT273TXQ2KVVEFS3FYI\"}\x20\r\n-ERR\x20'A
+SF:uthorization\x20Violation'\r\n")%r(HTTPOptions,1D1,"INFO\x20{\"server_i
+SF:d\":\"NAWTVISGWNHU64LTFD2WL2NE3CEPVIAOIIQFMVQILLNEZA3LQWCIBRBJ\",\"serv
+SF:er_name\":\"NAWTVISGWNHU64LTFD2WL2NE3CEPVIAOIIQFMVQILLNEZA3LQWCIBRBJ\",
+SF:\"version\":\"2\.11\.3\",\"proto\":1,\"git_commit\":\"a82cfda\",\"go\":
+SF:\"go1\.24\.2\",\"host\":\"0\.0\.0\.0\",\"port\":4222,\"headers\":true,\
+SF:"auth_required\":true,\"max_payload\":1048576,\"jetstream\":true,\"clie
+SF:nt_id\":22,\"client_ip\":\"10\.10\.14\.242\",\"xkey\":\"XDDVFRIMWAUGY26
+SF:3VIIM5GFXBRVEFHKOYRFRUJT273TXQ2KVVEFS3FYI\"}\x20\r\n-ERR\x20'Authorizat
+SF:ion\x20Violation'\r\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Nov 27 18:13:49 2025 -- 1 IP address (1 host up) scanned in 11.31 seconds

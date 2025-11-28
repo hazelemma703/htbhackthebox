@@ -1,0 +1,4 @@
+🍯 NATS Honeypot on 0.0.0.0:4222
+📡 10.10.11.78:51830
+📨 b'CONNECT {"verbose":false,"pedantic":false,"user":"Dev_Account_A","pass":"hx5h7F5554fP@1337!","tls_re'...
+🎯 FOUND: Dev_Account_A:hx5h7F5554fP@1337!

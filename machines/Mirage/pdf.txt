@@ -1,0 +1,41 @@
+El 3 de mayo de 2025, el equipo de desarrollo informó que no pudo resolver el nombre de host nats-svc.mirage.htb. Este nombre de host es fundamental para la comunicación interna del servicio con el sistema de mensajería NATS alojado en el dominio Mirage
+
+Cronología de eventos:
+
+3 de mayo de 2025: El servidor nats-svc deja de estar disponible en la red interna.
+4 de mayo de 2025: El equipo de desarrollo informa de un fallo en la conexión al servicio NATS a través de DNS.
+5 de mayo de 2025: Una investigación inicial confirma la ausencia del registro DNS de nats-svc en la zona mirage.htb..
+
+
+Investigación/Resultados:
+
+Cuando el equipo de desarrollo intentó conectarse al servidor NATS usando el nombre de host nats-svc, recibió un error de conexión:
+Una investigación más exhaustiva confirmó que la resolución de nombres falló. El DNS no pudo asignar el nombre de host a una dirección IP.
+
+The Systems Administrator inspected the dc01.mirage.htb DNS zone and confirmed that
+the DNS record for nats-svc was missing.
+
+Revisamos los registros de eventos y encontramos los ID de evento 2501 (limpieza iniciada) y 2502 (limpieza completada), lo que indica que se realizó una limpieza de DNS y que el registro nats-svc probablemente se eliminó automáticamente. Los registros de concesión DHCP mostraron que la máquina nats-svc había estado desconectada durante más de 14 días. Esto coincide con el modelo de turnos rotativos del equipo de desarrollo (30/15 días), que a menudo provoca que ciertas máquinas permanezcan desconectadas durante períodos prolongados.
+El servidor DNS Mirage está configurado con la limpieza habilitada, utilizando los intervalos predeterminados:
+Intervalo sin actualización: 7 días
+Intervalo de actualización: 7 días
+
+Esto significa que cualquier registro DNS dinámico que no se actualice en 14 días se considera obsoleto y puede eliminarse automáticamente, que es lo que probablemente sucedió con el registro nats-svc.
+
+Solucion
+
+To prevent this issue from occurring again, we recommend the following:
+1. Convert nats-svc to a Static Record
+Static records are not affected by scavenging. Manually converting nats-svc to a static
+record is the safest solution for services that are not consistently online.
+2. Adjust DNS Scavenging Intervals
+Extend the scavenging interval to 21–30 days to allow more time before records are
+considered stale. This is especially useful for systems with infrequent online presence.
+3. Disable Scavenging for the Zone (Optional)
+Disabling scavenging on the mirage.htb zone is possible but not recommended globally,
+as it affects all dynamic records and could lead to stale record buildup.
+
+
+Consideración de seguridad:
+En entornos de desarrollo, los nombres de servicio fijos, como nats-svc.mirage.htb, suelen estar codificados en las aplicaciones. Si falta el registro DNS, algunas aplicaciones podrían intentar conectarse a ese nombre. Este comportamiento podría ser aprovechado por atacantes si se secuestran los registros DNS.
+El equipo de seguridad debe supervisar de cerca estos casos para garantizar que no se inyecten ni falsifiquen respuestas DNS no autorizadas en la red.

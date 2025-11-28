@@ -1,0 +1,37 @@
+# Nmap 7.95 scan initiated Thu Nov 27 23:13:39 2025 as: /usr/lib/nmap/nmap -Pn -p- --min-rate=1000 -T4 -oN ports.nmap 10.10.11.78
+Nmap scan report for mirage.htb (10.10.11.78)
+Host is up (0.13s latency).
+Not shown: 65505 closed tcp ports (reset)
+PORT      STATE SERVICE
+53/tcp    open  domain
+88/tcp    open  kerberos-sec
+111/tcp   open  rpcbind
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+389/tcp   open  ldap
+445/tcp   open  microsoft-ds
+464/tcp   open  kpasswd5
+593/tcp   open  http-rpc-epmap
+636/tcp   open  ldapssl
+2049/tcp  open  nfs
+3268/tcp  open  globalcatLDAP
+3269/tcp  open  globalcatLDAPssl
+4222/tcp  open  vrml-multi-use
+5985/tcp  open  wsman
+9389/tcp  open  adws
+47001/tcp open  winrm
+49664/tcp open  unknown
+49665/tcp open  unknown
+49666/tcp open  unknown
+49667/tcp open  unknown
+49669/tcp open  unknown
+50661/tcp open  unknown
+51192/tcp open  unknown
+51203/tcp open  unknown
+51205/tcp open  unknown
+51218/tcp open  unknown
+51223/tcp open  unknown
+51239/tcp open  unknown
+51255/tcp open  unknown
+
+# Nmap done at Thu Nov 27 23:14:48 2025 -- 1 IP address (1 host up) scanned in 68.91 seconds
