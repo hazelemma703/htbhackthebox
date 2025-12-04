@@ -1,0 +1,39 @@
+# Nmap 7.95 scan initiated Thu Nov 27 08:15:56 2025 as: /usr/lib/nmap/nmap --open -O -oN open_ports.nmap 10.10.11.78
+Nmap scan report for 10.10.11.78 (10.10.11.78)
+Host is up (0.13s latency).
+Not shown: 986 closed tcp ports (reset)
+PORT     STATE SERVICE
+53/tcp   open  domain
+88/tcp   open  kerberos-sec
+111/tcp  open  rpcbind
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+389/tcp  open  ldap
+445/tcp  open  microsoft-ds
+464/tcp  open  kpasswd5
+593/tcp  open  http-rpc-epmap
+636/tcp  open  ldapssl
+2049/tcp open  nfs
+3268/tcp open  globalcatLDAP
+3269/tcp open  globalcatLDAPssl
+5985/tcp open  wsman
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.95%E=4%D=11/27%OT=53%CT=1%CU=30408%PV=Y%DS=2%DC=I%G=Y%TM=692841
+OS:0D%P=x86_64-pc-linux-gnu)SEQ(SP=100%GCD=1%ISR=109%TI=I%CI=I%II=I%SS=S%TS
+OS:=A)SEQ(SP=104%GCD=1%ISR=10A%TI=RD%CI=I%II=I)SEQ(SP=106%GCD=2%ISR=10A%TI=
+OS:I%CI=I%II=I%SS=S%TS=A)SEQ(SP=108%GCD=1%ISR=10C%TI=I%CI=I%II=I%SS=S%TS=A)
+OS:SEQ(SP=FE%GCD=1%ISR=10A%TI=I%CI=I%II=I%SS=S%TS=A)OPS(O1=M552NW8ST11%O2=M
+OS:552NW8ST11%O3=M552NW8NNT11%O4=M552NW8ST11%O5=M552NW8ST11%O6=M552ST11)WIN
+OS:(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFDC)ECN(R=Y%DF=Y%T=80%W=FFF
+OS:F%O=M552NW8NNS%CC=Y%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=
+OS:Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%
+OS:RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0
+OS:%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7
+OS:(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=
+OS:0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 2 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Nov 27 08:16:13 2025 -- 1 IP address (1 host up) scanned in 16.97 seconds

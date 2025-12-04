@@ -1,0 +1,28 @@
+===============================================================
+Gobuster v3.8
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://gavel.htb
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.8
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+/.git/HEAD            (Status: 200) [Size: 23]
+/.hta                 (Status: 403) [Size: 274]
+/.htaccess            (Status: 403) [Size: 274]
+/.htpasswd            (Status: 403) [Size: 274]
+/admin.php            (Status: 302) [Size: 0] [--> index.php]
+/assets               (Status: 301) [Size: 307] [--> http://gavel.htb/assets/]
+/includes             (Status: 301) [Size: 309] [--> http://gavel.htb/includes/]
+/index.php            (Status: 200) [Size: 13915]
+/rules                (Status: 301) [Size: 306] [--> http://gavel.htb/rules/]
+/server-status        (Status: 403) [Size: 274]
+Progress: 4613 / 4613 (100.00%)
+===============================================================
+Finished
+===============================================================
