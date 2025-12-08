@@ -1,0 +1,9 @@
+# Nmap 7.95 scan initiated Sat Dec  6 15:45:08 2025 as: /usr/lib/nmap/nmap -p- --min-rate 2000 -Pn -n -oN all_ports.nmap 10.10.11.98
+Nmap scan report for 10.10.11.98
+Host is up (0.18s latency).
+Not shown: 65533 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+80/tcp   open  http
+5985/tcp open  wsman
+
+# Nmap done at Sat Dec  6 15:46:14 2025 -- 1 IP address (1 host up) scanned in 66.11 seconds

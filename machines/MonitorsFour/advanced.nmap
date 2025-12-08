@@ -1,0 +1,10 @@
+# Nmap 7.95 scan initiated Sat Dec  6 17:54:57 2025 as: /usr/lib/nmap/nmap -p80,5985 -sCV --script=http-enum,http-vuln*,winrm* -Pn -oN advanced.nmap 10.10.11.98
+NSE: failed to initialize the script engine:
+/usr/share/nmap/nse_main.lua:829: 'winrm*' did not match a category, filename, or directory
+stack traceback:
+	[C]: in function 'error'
+	/usr/share/nmap/nse_main.lua:829: in local 'get_chosen_scripts'
+	/usr/share/nmap/nse_main.lua:1364: in main chunk
+	[C]: in ?
+
+QUITTING!
