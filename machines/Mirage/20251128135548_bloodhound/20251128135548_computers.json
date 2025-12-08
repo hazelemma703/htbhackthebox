@@ -1,0 +1,166 @@
+{
+    "data": [
+        {
+            "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-1000",
+            "AllowedToAct": [],
+            "PrimaryGroupSID": "S-1-5-21-2127163471-3824721834-2568365109-516",
+            "LocalAdmins": {
+                "Collected": true,
+                "FailureReason": null,
+                "Results": [
+                    {
+                        "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-500",
+                        "ObjectType": "User"
+                    },
+                    {
+                        "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                        "ObjectType": "Group"
+                    },
+                    {
+                        "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                        "ObjectType": "Group"
+                    }
+                ]
+            },
+            "PSRemoteUsers": {
+                "Collected": true,
+                "FailureReason": null,
+                "Results": [
+                    {
+                        "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-1106",
+                        "ObjectType": "Group"
+                    }
+                ]
+            },
+            "Properties": {
+                "name": "DC01.MIRAGE.HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "domain": "MIRAGE.HTB",
+                "distinguishedname": "CN=DC01,OU=DOMAIN CONTROLLERS,DC=MIRAGE,DC=HTB",
+                "unconstraineddelegation": true,
+                "enabled": true,
+                "trustedtoauth": false,
+                "samaccountname": "DC01$",
+                "haslaps": false,
+                "lastlogon": 1764349326,
+                "lastlogontimestamp": 1764349315,
+                "pwdlastset": 1750330221,
+                "whencreated": 1746085343,
+                "serviceprincipalnames": [
+                    "Dfsr-12F9A27C-BF97-4787-9364-D31B6C55EB04/dc01.mirage.htb",
+                    "ldap/dc01.mirage.htb/ForestDnsZones.mirage.htb",
+                    "ldap/dc01.mirage.htb/DomainDnsZones.mirage.htb",
+                    "DNS/dc01.mirage.htb",
+                    "GC/dc01.mirage.htb/mirage.htb",
+                    "RestrictedKrbHost/dc01.mirage.htb",
+                    "RestrictedKrbHost/DC01",
+                    "RPC/9e3773da-cab7-4575-9671-1aa5524ba345._msdcs.mirage.htb",
+                    "HOST/DC01/MIRAGE",
+                    "HOST/dc01.mirage.htb/MIRAGE",
+                    "HOST/DC01",
+                    "HOST/dc01.mirage.htb",
+                    "HOST/dc01.mirage.htb/mirage.htb",
+                    "E3514235-4B06-11D1-AB04-00C04FC2DCD2/9e3773da-cab7-4575-9671-1aa5524ba345/mirage.htb",
+                    "ldap/DC01/MIRAGE",
+                    "ldap/9e3773da-cab7-4575-9671-1aa5524ba345._msdcs.mirage.htb",
+                    "ldap/dc01.mirage.htb/MIRAGE",
+                    "ldap/DC01",
+                    "ldap/dc01.mirage.htb",
+                    "ldap/dc01.mirage.htb/mirage.htb"
+                ],
+                "description": null,
+                "operatingsystem": "Windows Server 2022 Standard",
+                "operatingsystemname": "Windows Server 2022 Standard",
+                "operatingsystemservicepack": null,
+                "operatingsystemversion": "10.0 (20348)",
+                "sidhistory": []
+            },
+            "RemoteDesktopUsers": {
+                "Collected": true,
+                "FailureReason": null,
+                "Results": []
+            },
+            "DcomUsers": {
+                "Collected": true,
+                "FailureReason": null,
+                "Results": []
+            },
+            "AllowedToDelegate": [],
+            "Sessions": {
+                "Collected": true,
+                "FailureReason": null,
+                "Results": []
+            },
+            "PrivilegedSessions": {
+                "Collected": false,
+                "FailureReason": null,
+                "Results": []
+            },
+            "RegistrySessions": {
+                "Collected": false,
+                "FailureReason": null,
+                "Results": []
+            },
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-526",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-527",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "HasSIDHistory": [],
+            "IsDeleted": false,
+            "Status": null,
+            "IsACLProtected": false
+        }
+    ],
+    "meta": {
+        "methods": 0,
+        "type": "computers",
+        "count": 1,
+        "version": 5
+    }
+}

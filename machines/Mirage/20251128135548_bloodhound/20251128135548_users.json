@@ -1,0 +1,1222 @@
+{
+    "data": [
+        {
+            "AllowedToDelegate": [],
+            "ObjectIdentifier": "MIRAGE.HTB-S-1-5-20",
+            "PrimaryGroupSID": null,
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "name": "NT AUTHORITY@MIRAGE.HTB"
+            },
+            "Aces": [],
+            "SPNTargets": [],
+            "HasSIDHistory": [],
+            "IsDeleted": false,
+            "IsACLProtected": false
+        },
+        {
+            "AllowedToDelegate": [],
+            "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-1112",
+            "PrimaryGroupSID": "S-1-5-21-2127163471-3824721834-2568365109-515",
+            "Properties": {
+                "name": "MIRAGE-SERVICE$@MIRAGE.HTB",
+                "domain": "MIRAGE.HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "distinguishedname": "CN=MIRAGE-SERVICE,CN=MANAGED SERVICE ACCOUNTS,DC=MIRAGE,DC=HTB",
+                "unconstraineddelegation": false,
+                "trustedtoauth": false,
+                "passwordnotreqd": false,
+                "enabled": true,
+                "lastlogon": 1748197251,
+                "lastlogontimestamp": 1748197251,
+                "pwdlastset": 1746175846,
+                "dontreqpreauth": false,
+                "pwdneverexpires": false,
+                "sensitive": false,
+                "serviceprincipalnames": [],
+                "hasspn": false,
+                "displayname": null,
+                "email": null,
+                "title": null,
+                "homedirectory": null,
+                "description": "Mirage Service",
+                "userpassword": null,
+                "admincount": false,
+                "sidhistory": [],
+                "whencreated": 1746175846,
+                "unixpassword": null,
+                "unicodepassword": null,
+                "logonscript": null,
+                "samaccountname": "Mirage-Service$",
+                "sfupassword": null
+            },
+            "Aces": [
+                {
+                    "RightName": "ReadGMSAPassword",
+                    "IsInherited": false,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "ReadGMSAPassword",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-1108",
+                    "PrincipalType": "User"
+                },
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-548",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-526",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-527",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "SPNTargets": [],
+            "HasSIDHistory": [],
+            "IsDeleted": false,
+            "IsACLProtected": false
+        },
+        {
+            "AllowedToDelegate": [],
+            "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-1110",
+            "PrimaryGroupSID": "S-1-5-21-2127163471-3824721834-2568365109-513",
+            "Properties": {
+                "name": "NATHAN.AADAM@MIRAGE.HTB",
+                "domain": "MIRAGE.HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "distinguishedname": "CN=NATHAN.AADAM,OU=USERS,OU=ADMINS,OU=IT_STAFF,DC=MIRAGE,DC=HTB",
+                "unconstraineddelegation": false,
+                "trustedtoauth": false,
+                "passwordnotreqd": false,
+                "enabled": true,
+                "lastlogon": 1751659303,
+                "lastlogontimestamp": 1751659303,
+                "pwdlastset": 1750713498,
+                "dontreqpreauth": false,
+                "pwdneverexpires": true,
+                "sensitive": false,
+                "serviceprincipalnames": [
+                    "HTTP/exchange.mirage.htb"
+                ],
+                "hasspn": true,
+                "displayname": "nathan.aadam",
+                "email": null,
+                "title": null,
+                "homedirectory": null,
+                "description": null,
+                "userpassword": null,
+                "admincount": false,
+                "sidhistory": [],
+                "whencreated": 1746175014,
+                "unixpassword": null,
+                "unicodepassword": null,
+                "logonscript": null,
+                "samaccountname": "nathan.aadam",
+                "sfupassword": null
+            },
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-548",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-526",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-527",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "SPNTargets": [],
+            "HasSIDHistory": [],
+            "IsDeleted": false,
+            "IsACLProtected": false
+        },
+        {
+            "AllowedToDelegate": [],
+            "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-1109",
+            "PrimaryGroupSID": "S-1-5-21-2127163471-3824721834-2568365109-513",
+            "Properties": {
+                "name": "MARK.BBOND@MIRAGE.HTB",
+                "domain": "MIRAGE.HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "distinguishedname": "CN=MARK.BBOND,OU=USERS,OU=SUPPORT,OU=IT_STAFF,DC=MIRAGE,DC=HTB",
+                "unconstraineddelegation": false,
+                "trustedtoauth": false,
+                "passwordnotreqd": false,
+                "enabled": true,
+                "lastlogon": 1764349339,
+                "lastlogontimestamp": 1764349339,
+                "pwdlastset": 1750713498,
+                "dontreqpreauth": false,
+                "pwdneverexpires": true,
+                "sensitive": false,
+                "serviceprincipalnames": [],
+                "hasspn": false,
+                "displayname": "mark.bbond",
+                "email": null,
+                "title": null,
+                "homedirectory": null,
+                "description": null,
+                "userpassword": null,
+                "admincount": false,
+                "sidhistory": [],
+                "whencreated": 1746174983,
+                "unixpassword": null,
+                "unicodepassword": null,
+                "logonscript": null,
+                "samaccountname": "mark.bbond",
+                "sfupassword": null
+            },
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-548",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-526",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-527",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "SPNTargets": [],
+            "HasSIDHistory": [],
+            "IsDeleted": false,
+            "IsACLProtected": false
+        },
+        {
+            "AllowedToDelegate": [],
+            "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-1108",
+            "PrimaryGroupSID": "S-1-5-21-2127163471-3824721834-2568365109-513",
+            "Properties": {
+                "name": "JAVIER.MMARSHALL@MIRAGE.HTB",
+                "domain": "MIRAGE.HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "distinguishedname": "CN=JAVIER.MMARSHALL,OU=USERS,OU=DISABLED,DC=MIRAGE,DC=HTB",
+                "unconstraineddelegation": false,
+                "trustedtoauth": false,
+                "passwordnotreqd": false,
+                "enabled": false,
+                "lastlogon": 1748198637,
+                "lastlogontimestamp": 1747950329,
+                "pwdlastset": 1748198683,
+                "dontreqpreauth": false,
+                "pwdneverexpires": true,
+                "sensitive": false,
+                "serviceprincipalnames": [],
+                "hasspn": false,
+                "displayname": "javier.mmarshall",
+                "email": null,
+                "title": null,
+                "homedirectory": null,
+                "description": "Contoso Contractors",
+                "userpassword": null,
+                "admincount": false,
+                "sidhistory": [],
+                "whencreated": 1746174791,
+                "unixpassword": null,
+                "unicodepassword": null,
+                "logonscript": null,
+                "samaccountname": "javier.mmarshall",
+                "sfupassword": null
+            },
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "ForceChangePassword",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-2602",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-548",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-526",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-527",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "SPNTargets": [],
+            "HasSIDHistory": [],
+            "IsDeleted": false,
+            "IsACLProtected": false
+        },
+        {
+            "AllowedToDelegate": [],
+            "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-2604",
+            "PrimaryGroupSID": "S-1-5-21-2127163471-3824721834-2568365109-513",
+            "Properties": {
+                "name": "SVC_MIRAGE@MIRAGE.HTB",
+                "domain": "MIRAGE.HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "distinguishedname": "CN=SVC_MIRAGE,OU=SERVICE ACCOUNTS,OU=DISABLED,DC=MIRAGE,DC=HTB",
+                "unconstraineddelegation": false,
+                "trustedtoauth": false,
+                "passwordnotreqd": false,
+                "enabled": false,
+                "lastlogon": 0,
+                "lastlogontimestamp": -1,
+                "pwdlastset": 1747946265,
+                "dontreqpreauth": false,
+                "pwdneverexpires": true,
+                "sensitive": false,
+                "serviceprincipalnames": [],
+                "hasspn": false,
+                "displayname": "svc_mirage",
+                "email": null,
+                "title": null,
+                "homedirectory": null,
+                "description": "Old service account migrated by contractors",
+                "userpassword": null,
+                "admincount": false,
+                "sidhistory": [],
+                "whencreated": 1747946265,
+                "unixpassword": null,
+                "unicodepassword": null,
+                "logonscript": null,
+                "samaccountname": "svc_mirage",
+                "sfupassword": null
+            },
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-548",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-526",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-527",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "SPNTargets": [],
+            "HasSIDHistory": [],
+            "IsDeleted": false,
+            "IsACLProtected": false
+        },
+        {
+            "AllowedToDelegate": [],
+            "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-1107",
+            "PrimaryGroupSID": "S-1-5-21-2127163471-3824721834-2568365109-513",
+            "Properties": {
+                "name": "DAVID.JJACKSON@MIRAGE.HTB",
+                "domain": "MIRAGE.HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "distinguishedname": "CN=DAVID.JJACKSON,OU=USERS,OU=ADMINS,OU=IT_STAFF,DC=MIRAGE,DC=HTB",
+                "unconstraineddelegation": false,
+                "trustedtoauth": false,
+                "passwordnotreqd": false,
+                "enabled": true,
+                "lastlogon": 1764352574,
+                "lastlogontimestamp": 1764350384,
+                "pwdlastset": 1746174590,
+                "dontreqpreauth": false,
+                "pwdneverexpires": true,
+                "sensitive": false,
+                "serviceprincipalnames": [],
+                "hasspn": false,
+                "displayname": "david.jjackson",
+                "email": null,
+                "title": null,
+                "homedirectory": null,
+                "description": null,
+                "userpassword": null,
+                "admincount": false,
+                "sidhistory": [],
+                "whencreated": 1746174590,
+                "unixpassword": null,
+                "unicodepassword": null,
+                "logonscript": null,
+                "samaccountname": "david.jjackson",
+                "sfupassword": null
+            },
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-548",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-526",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-527",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "SPNTargets": [],
+            "HasSIDHistory": [],
+            "IsDeleted": false,
+            "IsACLProtected": false
+        },
+        {
+            "AllowedToDelegate": [],
+            "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-1105",
+            "PrimaryGroupSID": "S-1-5-21-2127163471-3824721834-2568365109-513",
+            "Properties": {
+                "name": "DEV_ACCOUNT_B@MIRAGE.HTB",
+                "domain": "MIRAGE.HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "distinguishedname": "CN=DEV_ACCOUNT_B,OU=USERS,OU=DEVELOPMENT,DC=MIRAGE,DC=HTB",
+                "unconstraineddelegation": false,
+                "trustedtoauth": false,
+                "passwordnotreqd": false,
+                "enabled": true,
+                "lastlogon": 0,
+                "lastlogontimestamp": -1,
+                "pwdlastset": 1746174491,
+                "dontreqpreauth": false,
+                "pwdneverexpires": true,
+                "sensitive": false,
+                "serviceprincipalnames": [],
+                "hasspn": false,
+                "displayname": "Dev_Account_B",
+                "email": null,
+                "title": null,
+                "homedirectory": null,
+                "description": null,
+                "userpassword": null,
+                "admincount": false,
+                "sidhistory": [],
+                "whencreated": 1746174491,
+                "unixpassword": null,
+                "unicodepassword": null,
+                "logonscript": null,
+                "samaccountname": "Dev_Account_B",
+                "sfupassword": null
+            },
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-548",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-526",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-527",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "SPNTargets": [],
+            "HasSIDHistory": [],
+            "IsDeleted": false,
+            "IsACLProtected": false
+        },
+        {
+            "AllowedToDelegate": [],
+            "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-502",
+            "PrimaryGroupSID": "S-1-5-21-2127163471-3824721834-2568365109-513",
+            "Properties": {
+                "name": "KRBTGT@MIRAGE.HTB",
+                "domain": "MIRAGE.HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "distinguishedname": "CN=KRBTGT,CN=USERS,DC=MIRAGE,DC=HTB",
+                "unconstraineddelegation": false,
+                "trustedtoauth": false,
+                "passwordnotreqd": false,
+                "enabled": false,
+                "lastlogon": 0,
+                "lastlogontimestamp": -1,
+                "pwdlastset": 1746085343,
+                "dontreqpreauth": false,
+                "pwdneverexpires": false,
+                "sensitive": false,
+                "serviceprincipalnames": [
+                    "kadmin/changepw"
+                ],
+                "hasspn": true,
+                "displayname": null,
+                "email": null,
+                "title": null,
+                "homedirectory": null,
+                "description": "Key Distribution Center Service Account",
+                "userpassword": null,
+                "admincount": true,
+                "sidhistory": [],
+                "whencreated": 1746085343,
+                "unixpassword": null,
+                "unicodepassword": null,
+                "logonscript": null,
+                "samaccountname": "krbtgt",
+                "sfupassword": null
+            },
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": false,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "SPNTargets": [],
+            "HasSIDHistory": [],
+            "IsDeleted": false,
+            "IsACLProtected": true
+        },
+        {
+            "AllowedToDelegate": [],
+            "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-1104",
+            "PrimaryGroupSID": "S-1-5-21-2127163471-3824721834-2568365109-513",
+            "Properties": {
+                "name": "DEV_ACCOUNT_A@MIRAGE.HTB",
+                "domain": "MIRAGE.HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "distinguishedname": "CN=DEV_ACCOUNT_A,OU=USERS,OU=DEVELOPMENT,DC=MIRAGE,DC=HTB",
+                "unconstraineddelegation": false,
+                "trustedtoauth": false,
+                "passwordnotreqd": false,
+                "enabled": true,
+                "lastlogon": 0,
+                "lastlogontimestamp": 1748194480,
+                "pwdlastset": 1748354712,
+                "dontreqpreauth": false,
+                "pwdneverexpires": true,
+                "sensitive": false,
+                "serviceprincipalnames": [],
+                "hasspn": false,
+                "displayname": "Dev_Account_A",
+                "email": null,
+                "title": null,
+                "homedirectory": null,
+                "description": null,
+                "userpassword": null,
+                "admincount": false,
+                "sidhistory": [],
+                "whencreated": 1746174413,
+                "unixpassword": null,
+                "unicodepassword": null,
+                "logonscript": null,
+                "samaccountname": "Dev_Account_A",
+                "sfupassword": null
+            },
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-548",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-526",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-527",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "SPNTargets": [],
+            "HasSIDHistory": [],
+            "IsDeleted": false,
+            "IsACLProtected": false
+        },
+        {
+            "AllowedToDelegate": [],
+            "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-501",
+            "PrimaryGroupSID": "S-1-5-21-2127163471-3824721834-2568365109-514",
+            "Properties": {
+                "name": "GUEST@MIRAGE.HTB",
+                "domain": "MIRAGE.HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "distinguishedname": "CN=GUEST,CN=USERS,DC=MIRAGE,DC=HTB",
+                "unconstraineddelegation": false,
+                "trustedtoauth": false,
+                "passwordnotreqd": true,
+                "enabled": false,
+                "lastlogon": 0,
+                "lastlogontimestamp": -1,
+                "pwdlastset": 0,
+                "dontreqpreauth": false,
+                "pwdneverexpires": true,
+                "sensitive": false,
+                "serviceprincipalnames": [],
+                "hasspn": false,
+                "displayname": null,
+                "email": null,
+                "title": null,
+                "homedirectory": null,
+                "description": "Built-in account for guest access to the computer/domain",
+                "userpassword": null,
+                "admincount": false,
+                "sidhistory": [],
+                "whencreated": 1746085297,
+                "unixpassword": null,
+                "unicodepassword": null,
+                "logonscript": null,
+                "samaccountname": "Guest",
+                "sfupassword": null
+            },
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-548",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-526",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AddKeyCredentialLink",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-527",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "SPNTargets": [],
+            "HasSIDHistory": [],
+            "IsDeleted": false,
+            "IsACLProtected": false
+        },
+        {
+            "AllowedToDelegate": [],
+            "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-500",
+            "PrimaryGroupSID": "S-1-5-21-2127163471-3824721834-2568365109-513",
+            "Properties": {
+                "name": "ADMINISTRATOR@MIRAGE.HTB",
+                "domain": "MIRAGE.HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "distinguishedname": "CN=ADMINISTRATOR,CN=USERS,DC=MIRAGE,DC=HTB",
+                "unconstraineddelegation": false,
+                "trustedtoauth": false,
+                "passwordnotreqd": false,
+                "enabled": true,
+                "lastlogon": 1764349339,
+                "lastlogontimestamp": 1764349317,
+                "pwdlastset": 1750713498,
+                "dontreqpreauth": false,
+                "pwdneverexpires": true,
+                "sensitive": true,
+                "serviceprincipalnames": [],
+                "hasspn": false,
+                "displayname": null,
+                "email": null,
+                "title": null,
+                "homedirectory": null,
+                "description": "Built-in account for administering the computer/domain",
+                "userpassword": null,
+                "admincount": true,
+                "sidhistory": [],
+                "whencreated": 1746085297,
+                "unixpassword": null,
+                "unicodepassword": null,
+                "logonscript": null,
+                "samaccountname": "Administrator",
+                "sfupassword": null
+            },
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "AllExtendedRights",
+                    "IsInherited": false,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "SPNTargets": [],
+            "HasSIDHistory": [],
+            "IsDeleted": false,
+            "IsACLProtected": true
+        }
+    ],
+    "meta": {
+        "methods": 0,
+        "type": "users",
+        "count": 12,
+        "version": 5
+    }
+}

@@ -1,0 +1,1049 @@
+{
+    "data": [
+        {
+            "ObjectIdentifier": "65757D6D-8A9E-4954-9A11-BC5E8DA5502D",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "WMIGPO@MIRAGE.HTB",
+                "distinguishedname": "CN=WMIGPO,CN=WMIPOLICY,CN=SYSTEM,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1746085296
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "69F512BD-0143-4139-B026-29DCC83844BA",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "POLICYTYPE@MIRAGE.HTB",
+                "distinguishedname": "CN=POLICYTYPE,CN=WMIPOLICY,CN=SYSTEM,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1746085296
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "A079F7AF-C699-4FE2-BE60-C12009D9443B",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "SOM@MIRAGE.HTB",
+                "distinguishedname": "CN=SOM,CN=WMIPOLICY,CN=SYSTEM,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1746085296
+            },
+            "IsDeleted": false,
+            "IsACLProtected": true,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "8A8CAA28-8269-4685-9D5A-5B5C796C31C0",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "POLICYTEMPLATE@MIRAGE.HTB",
+                "distinguishedname": "CN=POLICYTEMPLATE,CN=WMIPOLICY,CN=SYSTEM,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1746085296
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "3EF95985-083B-4B9A-9076-71FDF8491787",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "WMIPOLICY@MIRAGE.HTB",
+                "distinguishedname": "CN=WMIPOLICY,CN=SYSTEM,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1746085296
+            },
+            "IsDeleted": false,
+            "IsACLProtected": true,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "82F493DB-C35E-4711-AB81-768DBD531DA9",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "COMPARTITIONSETS@MIRAGE.HTB",
+                "distinguishedname": "CN=COMPARTITIONSETS,CN=SYSTEM,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1746085296
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "B61DBA94-5D75-46BA-9B19-1DCEA56DC4E8",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "COMPARTITIONS@MIRAGE.HTB",
+                "distinguishedname": "CN=COMPARTITIONS,CN=SYSTEM,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1746085296
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "8412BBF0-4E59-4C49-8EB7-270EE0EFDA5D",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "ADMINSDHOLDER@MIRAGE.HTB",
+                "distinguishedname": "CN=ADMINSDHOLDER,CN=SYSTEM,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1746085296
+            },
+            "IsDeleted": false,
+            "IsACLProtected": true,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "173663AA-ABAD-41F5-A917-F2F22F7F1D43",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "RAS AND IAS SERVERS ACCESS CHECK@MIRAGE.HTB",
+                "distinguishedname": "CN=RAS AND IAS SERVERS ACCESS CHECK,CN=SYSTEM,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1746085296
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-553",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-553",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "BA20ED50-6D21-46A6-AB56-E990951BE025",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "POLICIES@MIRAGE.HTB",
+                "distinguishedname": "CN=POLICIES,CN=SYSTEM,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1746085296
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "362561B2-B68A-412E-8DCC-FCAA51D9E113",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "MEETINGS@MIRAGE.HTB",
+                "distinguishedname": "CN=MEETINGS,CN=SYSTEM,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1746085296
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "27E2D335-27E9-4EB1-B12F-08A354D87D40",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "WINSOCKSERVICES@MIRAGE.HTB",
+                "distinguishedname": "CN=WINSOCKSERVICES,CN=SYSTEM,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "description": "",
+                "whencreated": 1746085296
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "83181FDC-10DA-409A-8308-6123920E06A7",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "MANAGED SERVICE ACCOUNTS@MIRAGE.HTB",
+                "distinguishedname": "CN=MANAGED SERVICE ACCOUNTS,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "description": "Default container for managed service accounts",
+                "whencreated": 1746085296
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": [
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-1112",
+                    "ObjectType": "User"
+                }
+            ]
+        },
+        {
+            "ObjectIdentifier": "B149F76E-5B26-416C-8607-5622C5A87EDC",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "MICROSOFT@MIRAGE.HTB",
+                "distinguishedname": "CN=MICROSOFT,CN=PROGRAM DATA,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "description": "Default location for storage of Microsoft application data.",
+                "whencreated": 1746085296
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "8B8677DE-CCBD-41C4-8095-5C469CC79A50",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "PROGRAM DATA@MIRAGE.HTB",
+                "distinguishedname": "CN=PROGRAM DATA,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "description": "Default location for storage of application data.",
+                "whencreated": 1746085296
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "6A3B380A-27F0-426B-873B-3BF93D4C19BF",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "FOREIGNSECURITYPRINCIPALS@MIRAGE.HTB",
+                "distinguishedname": "CN=FOREIGNSECURITYPRINCIPALS,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "description": "Default container for security identifiers (SIDs) associated with objects from external, trusted domains",
+                "whencreated": 1746085296
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "6D38B939-3969-43B7-901F-832F0742EAD6",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "SYSTEM@MIRAGE.HTB",
+                "distinguishedname": "CN=SYSTEM,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "description": "Builtin system settings",
+                "whencreated": 1746085296
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "816D248D-F9F7-4436-AAA5-D228E92B2AC7",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "COMPUTERS@MIRAGE.HTB",
+                "distinguishedname": "CN=COMPUTERS,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "description": "Default container for upgraded computer accounts",
+                "whencreated": 1746085296
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": []
+        },
+        {
+            "ObjectIdentifier": "D1772960-4F1D-4FCC-B877-0C7DF08D0C9C",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "USERS@MIRAGE.HTB",
+                "distinguishedname": "CN=USERS,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "description": "Default container for upgraded user accounts",
+                "whencreated": 1746085296
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "ChildObjects": [
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-518",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-521",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-553",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-525",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-502",
+                    "ObjectType": "User"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-526",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-501",
+                    "ObjectType": "User"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-520",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-498",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-527",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-513",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-514",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-516",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-515",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-1102",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-1101",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-572",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-522",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-517",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-571",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-500",
+                    "ObjectType": "User"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "methods": 0,
+        "type": "containers",
+        "count": 19,
+        "version": 5
+    }
+}

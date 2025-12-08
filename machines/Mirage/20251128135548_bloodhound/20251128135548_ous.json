@@ -1,0 +1,1466 @@
+{
+    "data": [
+        {
+            "ObjectIdentifier": "4D10484A-2A6A-4905-B52D-B43A6E8C9242",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "IT_STAFF@MIRAGE.HTB",
+                "distinguishedname": "OU=IT_STAFF,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "blocksinheritance": false,
+                "description": null,
+                "whencreated": 1747946081
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "Links": [],
+            "ChildObjects": [
+                {
+                    "ObjectIdentifier": "B03E45C4-7240-470D-8D1F-1143AEAB4E05",
+                    "ObjectType": "OU"
+                },
+                {
+                    "ObjectIdentifier": "1CDD7DB4-02B2-490A-AF86-2F36697F748F",
+                    "ObjectType": "OU"
+                },
+                {
+                    "ObjectIdentifier": "203F9E8C-C751-4E7A-AA2A-582E92426190",
+                    "ObjectType": "OU"
+                },
+                {
+                    "ObjectIdentifier": "C34263D9-12C0-4406-8C43-E0C328835A73",
+                    "ObjectType": "OU"
+                }
+            ],
+            "GPOChanges": {
+                "AffectedComputers": [],
+                "DcomUsers": [],
+                "LocalAdmins": [],
+                "PSRemoteUsers": [],
+                "RemoteDesktopUsers": []
+            }
+        },
+        {
+            "ObjectIdentifier": "E5743FDD-3915-4529-9E26-5E2EB0A16C9C",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "GROUPS@MIRAGE.HTB",
+                "distinguishedname": "OU=GROUPS,OU=CONTRACTORS,OU=IT_STAFF,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "blocksinheritance": false,
+                "description": null,
+                "whencreated": 1747945923
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "Links": [],
+            "ChildObjects": [
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-2603",
+                    "ObjectType": "Group"
+                }
+            ],
+            "GPOChanges": {
+                "AffectedComputers": [],
+                "DcomUsers": [],
+                "LocalAdmins": [],
+                "PSRemoteUsers": [],
+                "RemoteDesktopUsers": []
+            }
+        },
+        {
+            "ObjectIdentifier": "81FD17AD-96FC-44A2-88CE-7F89D2767734",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "USERS@MIRAGE.HTB",
+                "distinguishedname": "OU=USERS,OU=CONTRACTORS,OU=IT_STAFF,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "blocksinheritance": false,
+                "description": null,
+                "whencreated": 1747945918
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "Links": [],
+            "ChildObjects": [],
+            "GPOChanges": {
+                "AffectedComputers": [],
+                "DcomUsers": [],
+                "LocalAdmins": [],
+                "PSRemoteUsers": [],
+                "RemoteDesktopUsers": []
+            }
+        },
+        {
+            "ObjectIdentifier": "203F9E8C-C751-4E7A-AA2A-582E92426190",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "CONTRACTORS@MIRAGE.HTB",
+                "distinguishedname": "OU=CONTRACTORS,OU=IT_STAFF,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "blocksinheritance": false,
+                "description": null,
+                "whencreated": 1747945911
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "Links": [],
+            "ChildObjects": [
+                {
+                    "ObjectIdentifier": "81FD17AD-96FC-44A2-88CE-7F89D2767734",
+                    "ObjectType": "OU"
+                },
+                {
+                    "ObjectIdentifier": "E5743FDD-3915-4529-9E26-5E2EB0A16C9C",
+                    "ObjectType": "OU"
+                }
+            ],
+            "GPOChanges": {
+                "AffectedComputers": [],
+                "DcomUsers": [],
+                "LocalAdmins": [],
+                "PSRemoteUsers": [],
+                "RemoteDesktopUsers": []
+            }
+        },
+        {
+            "ObjectIdentifier": "1CB39A2E-F8E8-4A2F-9585-61A12CB8703B",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "GROUPS@MIRAGE.HTB",
+                "distinguishedname": "OU=GROUPS,OU=ADMINS,OU=IT_STAFF,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "blocksinheritance": false,
+                "description": null,
+                "whencreated": 1747945186
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "Links": [],
+            "ChildObjects": [
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-1106",
+                    "ObjectType": "Group"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-2601",
+                    "ObjectType": "Group"
+                }
+            ],
+            "GPOChanges": {
+                "AffectedComputers": [],
+                "DcomUsers": [],
+                "LocalAdmins": [],
+                "PSRemoteUsers": [],
+                "RemoteDesktopUsers": []
+            }
+        },
+        {
+            "ObjectIdentifier": "A76AA759-372A-4C55-9EB4-1AD18334B3FE",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "USERS@MIRAGE.HTB",
+                "distinguishedname": "OU=USERS,OU=ADMINS,OU=IT_STAFF,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "blocksinheritance": false,
+                "description": null,
+                "whencreated": 1747945176
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "Links": [],
+            "ChildObjects": [
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-1110",
+                    "ObjectType": "User"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-1107",
+                    "ObjectType": "User"
+                }
+            ],
+            "GPOChanges": {
+                "AffectedComputers": [],
+                "DcomUsers": [],
+                "LocalAdmins": [],
+                "PSRemoteUsers": [],
+                "RemoteDesktopUsers": []
+            }
+        },
+        {
+            "ObjectIdentifier": "C34263D9-12C0-4406-8C43-E0C328835A73",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "ADMINS@MIRAGE.HTB",
+                "distinguishedname": "OU=ADMINS,OU=IT_STAFF,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "blocksinheritance": false,
+                "description": null,
+                "whencreated": 1747945171
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "Links": [],
+            "ChildObjects": [
+                {
+                    "ObjectIdentifier": "A76AA759-372A-4C55-9EB4-1AD18334B3FE",
+                    "ObjectType": "OU"
+                },
+                {
+                    "ObjectIdentifier": "1CB39A2E-F8E8-4A2F-9585-61A12CB8703B",
+                    "ObjectType": "OU"
+                }
+            ],
+            "GPOChanges": {
+                "AffectedComputers": [],
+                "DcomUsers": [],
+                "LocalAdmins": [],
+                "PSRemoteUsers": [],
+                "RemoteDesktopUsers": []
+            }
+        },
+        {
+            "ObjectIdentifier": "76CD80D7-1724-4562-B697-1CE87C20B328",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "GROUPS@MIRAGE.HTB",
+                "distinguishedname": "OU=GROUPS,OU=TECHNICIANS,OU=IT_STAFF,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "blocksinheritance": false,
+                "description": null,
+                "whencreated": 1747944822
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "Links": [],
+            "ChildObjects": [],
+            "GPOChanges": {
+                "AffectedComputers": [],
+                "DcomUsers": [],
+                "LocalAdmins": [],
+                "PSRemoteUsers": [],
+                "RemoteDesktopUsers": []
+            }
+        },
+        {
+            "ObjectIdentifier": "F1B187DB-061A-4082-A251-E4969C950322",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "USERS@MIRAGE.HTB",
+                "distinguishedname": "OU=USERS,OU=TECHNICIANS,OU=IT_STAFF,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "blocksinheritance": false,
+                "description": null,
+                "whencreated": 1747944817
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "Links": [],
+            "ChildObjects": [],
+            "GPOChanges": {
+                "AffectedComputers": [],
+                "DcomUsers": [],
+                "LocalAdmins": [],
+                "PSRemoteUsers": [],
+                "RemoteDesktopUsers": []
+            }
+        },
+        {
+            "ObjectIdentifier": "C363B627-4D3F-45FF-9CA3-9F5638E90C89",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "GROUPS@MIRAGE.HTB",
+                "distinguishedname": "OU=GROUPS,OU=SUPPORT,OU=IT_STAFF,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "blocksinheritance": false,
+                "description": null,
+                "whencreated": 1747944811
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "Links": [],
+            "ChildObjects": [
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-2602",
+                    "ObjectType": "Group"
+                }
+            ],
+            "GPOChanges": {
+                "AffectedComputers": [],
+                "DcomUsers": [],
+                "LocalAdmins": [],
+                "PSRemoteUsers": [],
+                "RemoteDesktopUsers": []
+            }
+        },
+        {
+            "ObjectIdentifier": "A3E4E68A-3C0D-4488-911E-5A51474146DC",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "USERS@MIRAGE.HTB",
+                "distinguishedname": "OU=USERS,OU=SUPPORT,OU=IT_STAFF,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "blocksinheritance": false,
+                "description": null,
+                "whencreated": 1747944807
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "Links": [],
+            "ChildObjects": [
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-1109",
+                    "ObjectType": "User"
+                }
+            ],
+            "GPOChanges": {
+                "AffectedComputers": [],
+                "DcomUsers": [],
+                "LocalAdmins": [],
+                "PSRemoteUsers": [],
+                "RemoteDesktopUsers": []
+            }
+        },
+        {
+            "ObjectIdentifier": "3776FC68-4218-49C7-B2DC-9D44EBA769FE",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "GROUPS@MIRAGE.HTB",
+                "distinguishedname": "OU=GROUPS,OU=DEVELOPMENT,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "blocksinheritance": false,
+                "description": null,
+                "whencreated": 1747944549
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "Links": [],
+            "ChildObjects": [
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-1103",
+                    "ObjectType": "Group"
+                }
+            ],
+            "GPOChanges": {
+                "AffectedComputers": [],
+                "DcomUsers": [],
+                "LocalAdmins": [],
+                "PSRemoteUsers": [],
+                "RemoteDesktopUsers": []
+            }
+        },
+        {
+            "ObjectIdentifier": "06D3F87A-2903-4B99-AF20-0F7022E727D7",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "USERS@MIRAGE.HTB",
+                "distinguishedname": "OU=USERS,OU=DEVELOPMENT,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "blocksinheritance": false,
+                "description": null,
+                "whencreated": 1747944544
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "Links": [],
+            "ChildObjects": [
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-1105",
+                    "ObjectType": "User"
+                },
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-1104",
+                    "ObjectType": "User"
+                }
+            ],
+            "GPOChanges": {
+                "AffectedComputers": [],
+                "DcomUsers": [],
+                "LocalAdmins": [],
+                "PSRemoteUsers": [],
+                "RemoteDesktopUsers": []
+            }
+        },
+        {
+            "ObjectIdentifier": "816CDBCE-1608-43EB-ACE2-AF8D742B045A",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "DEVELOPMENT@MIRAGE.HTB",
+                "distinguishedname": "OU=DEVELOPMENT,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "blocksinheritance": false,
+                "description": null,
+                "whencreated": 1747944539
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "Links": [],
+            "ChildObjects": [
+                {
+                    "ObjectIdentifier": "06D3F87A-2903-4B99-AF20-0F7022E727D7",
+                    "ObjectType": "OU"
+                },
+                {
+                    "ObjectIdentifier": "3776FC68-4218-49C7-B2DC-9D44EBA769FE",
+                    "ObjectType": "OU"
+                }
+            ],
+            "GPOChanges": {
+                "AffectedComputers": [],
+                "DcomUsers": [],
+                "LocalAdmins": [],
+                "PSRemoteUsers": [],
+                "RemoteDesktopUsers": []
+            }
+        },
+        {
+            "ObjectIdentifier": "B180D1D1-9C31-4DD2-8610-90D39F15C03A",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "SERVICE ACCOUNTS@MIRAGE.HTB",
+                "distinguishedname": "OU=SERVICE ACCOUNTS,OU=DISABLED,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "blocksinheritance": false,
+                "description": null,
+                "whencreated": 1747944460
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "Links": [],
+            "ChildObjects": [
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-2604",
+                    "ObjectType": "User"
+                }
+            ],
+            "GPOChanges": {
+                "AffectedComputers": [],
+                "DcomUsers": [],
+                "LocalAdmins": [],
+                "PSRemoteUsers": [],
+                "RemoteDesktopUsers": []
+            }
+        },
+        {
+            "ObjectIdentifier": "60C78DD3-E942-48B8-8C22-7DE42C182053",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "ADMINS@MIRAGE.HTB",
+                "distinguishedname": "OU=ADMINS,OU=DISABLED,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "blocksinheritance": false,
+                "description": null,
+                "whencreated": 1747944453
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "Links": [],
+            "ChildObjects": [],
+            "GPOChanges": {
+                "AffectedComputers": [],
+                "DcomUsers": [],
+                "LocalAdmins": [],
+                "PSRemoteUsers": [],
+                "RemoteDesktopUsers": []
+            }
+        },
+        {
+            "ObjectIdentifier": "CFC1FA35-B2D9-4191-8781-A6A1709C3DDB",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "USERS@MIRAGE.HTB",
+                "distinguishedname": "OU=USERS,OU=DISABLED,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "blocksinheritance": false,
+                "description": null,
+                "whencreated": 1747944447
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "Links": [],
+            "ChildObjects": [
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-1108",
+                    "ObjectType": "User"
+                }
+            ],
+            "GPOChanges": {
+                "AffectedComputers": [],
+                "DcomUsers": [],
+                "LocalAdmins": [],
+                "PSRemoteUsers": [],
+                "RemoteDesktopUsers": []
+            }
+        },
+        {
+            "ObjectIdentifier": "6EA7E034-507D-4655-9A82-7DFAF1006DC5",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "DISABLED@MIRAGE.HTB",
+                "distinguishedname": "OU=DISABLED,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "blocksinheritance": false,
+                "description": null,
+                "whencreated": 1747944441
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "Links": [],
+            "ChildObjects": [
+                {
+                    "ObjectIdentifier": "CFC1FA35-B2D9-4191-8781-A6A1709C3DDB",
+                    "ObjectType": "OU"
+                },
+                {
+                    "ObjectIdentifier": "B180D1D1-9C31-4DD2-8610-90D39F15C03A",
+                    "ObjectType": "OU"
+                },
+                {
+                    "ObjectIdentifier": "60C78DD3-E942-48B8-8C22-7DE42C182053",
+                    "ObjectType": "OU"
+                }
+            ],
+            "GPOChanges": {
+                "AffectedComputers": [],
+                "DcomUsers": [],
+                "LocalAdmins": [],
+                "PSRemoteUsers": [],
+                "RemoteDesktopUsers": []
+            }
+        },
+        {
+            "ObjectIdentifier": "1CDD7DB4-02B2-490A-AF86-2F36697F748F",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "SUPPORT@MIRAGE.HTB",
+                "distinguishedname": "OU=SUPPORT,OU=IT_STAFF,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "blocksinheritance": false,
+                "description": null,
+                "whencreated": 1747944427
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "Links": [],
+            "ChildObjects": [
+                {
+                    "ObjectIdentifier": "A3E4E68A-3C0D-4488-911E-5A51474146DC",
+                    "ObjectType": "OU"
+                },
+                {
+                    "ObjectIdentifier": "C363B627-4D3F-45FF-9CA3-9F5638E90C89",
+                    "ObjectType": "OU"
+                }
+            ],
+            "GPOChanges": {
+                "AffectedComputers": [],
+                "DcomUsers": [],
+                "LocalAdmins": [],
+                "PSRemoteUsers": [],
+                "RemoteDesktopUsers": []
+            }
+        },
+        {
+            "ObjectIdentifier": "B03E45C4-7240-470D-8D1F-1143AEAB4E05",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "TECHNICIANS@MIRAGE.HTB",
+                "distinguishedname": "OU=TECHNICIANS,OU=IT_STAFF,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "blocksinheritance": false,
+                "description": null,
+                "whencreated": 1746174686
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "Links": [],
+            "ChildObjects": [
+                {
+                    "ObjectIdentifier": "F1B187DB-061A-4082-A251-E4969C950322",
+                    "ObjectType": "OU"
+                },
+                {
+                    "ObjectIdentifier": "76CD80D7-1724-4562-B697-1CE87C20B328",
+                    "ObjectType": "OU"
+                }
+            ],
+            "GPOChanges": {
+                "AffectedComputers": [],
+                "DcomUsers": [],
+                "LocalAdmins": [],
+                "PSRemoteUsers": [],
+                "RemoteDesktopUsers": []
+            }
+        },
+        {
+            "ObjectIdentifier": "6339CB4A-71C2-4894-A7D3-4BE808A25568",
+            "Properties": {
+                "domain": "MIRAGE.HTB",
+                "name": "DOMAIN CONTROLLERS@MIRAGE.HTB",
+                "distinguishedname": "OU=DOMAIN CONTROLLERS,DC=MIRAGE,DC=HTB",
+                "domainsid": "S-1-5-21-2127163471-3824721834-2568365109",
+                "highvalue": false,
+                "blocksinheritance": false,
+                "description": "Default container for domain controllers",
+                "whencreated": 1746085296
+            },
+            "IsDeleted": false,
+            "IsACLProtected": false,
+            "Aces": [
+                {
+                    "RightName": "Owns",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": false,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-512",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericAll",
+                    "IsInherited": true,
+                    "PrincipalSID": "S-1-5-21-2127163471-3824721834-2568365109-519",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "GenericWrite",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteOwner",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                },
+                {
+                    "RightName": "WriteDacl",
+                    "IsInherited": true,
+                    "PrincipalSID": "MIRAGE.HTB-S-1-5-32-544",
+                    "PrincipalType": "Group"
+                }
+            ],
+            "Links": [
+                {
+                    "IsEnforced": false,
+                    "GUID": "606BA994-D7FE-4177-89A6-DA9E4C84C00F"
+                }
+            ],
+            "ChildObjects": [
+                {
+                    "ObjectIdentifier": "S-1-5-21-2127163471-3824721834-2568365109-1000",
+                    "ObjectType": "Computer"
+                }
+            ],
+            "GPOChanges": {
+                "AffectedComputers": [],
+                "DcomUsers": [],
+                "LocalAdmins": [],
+                "PSRemoteUsers": [],
+                "RemoteDesktopUsers": []
+            }
+        }
+    ],
+    "meta": {
+        "methods": 0,
+        "type": "ous",
+        "count": 21,
+        "version": 5
+    }
+}
