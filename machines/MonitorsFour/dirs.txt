@@ -1,0 +1,25 @@
+# Dirsearch started Mon Dec  8 00:57:52 2025 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://monitorsfour.htb -x 404 -o dirs.txt
+
+200    97B   http://monitorsfour.htb/.env
+403   548B   http://monitorsfour.htb/.ht_wsr.txt
+403   548B   http://monitorsfour.htb/.htaccess.bak1
+403   548B   http://monitorsfour.htb/.htaccess.sample
+403   548B   http://monitorsfour.htb/.htaccess.save
+403   548B   http://monitorsfour.htb/.htaccess.orig
+403   548B   http://monitorsfour.htb/.htaccessOLD
+403   548B   http://monitorsfour.htb/.htaccess_sc
+403   548B   http://monitorsfour.htb/.htaccess_orig
+403   548B   http://monitorsfour.htb/.htaccessBAK
+403   548B   http://monitorsfour.htb/.htaccessOLD2
+403   548B   http://monitorsfour.htb/.htaccess_extra
+403   548B   http://monitorsfour.htb/.htm
+403   548B   http://monitorsfour.htb/.html
+403   548B   http://monitorsfour.htb/.htpasswd_test
+403   548B   http://monitorsfour.htb/.htpasswds
+403   548B   http://monitorsfour.htb/.httr-oauth
+200   367B   http://monitorsfour.htb/contact
+403   548B   http://monitorsfour.htb/controllers/
+200     4KB  http://monitorsfour.htb/login
+301   162B   http://monitorsfour.htb/static    -> REDIRECTS TO: http://monitorsfour.htb/static/
+200    35B   http://monitorsfour.htb/user
+301   162B   http://monitorsfour.htb/views    -> REDIRECTS TO: http://monitorsfour.htb/views/
