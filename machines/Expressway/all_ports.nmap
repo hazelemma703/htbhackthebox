@@ -1,0 +1,15 @@
+# Nmap 7.95 scan initiated Tue Dec  9 01:38:58 2025 as: /usr/lib/nmap/nmap -p- --min-rate 5000 -sS -Pn -vvv -oN all_ports.nmap 10.10.11.87
+Increasing send delay for 10.10.11.87 from 0 to 5 due to 388 out of 1292 dropped probes since last increase.
+Increasing send delay for 10.10.11.87 from 5 to 10 due to 3379 out of 11263 dropped probes since last increase.
+Increasing send delay for 10.10.11.87 from 80 to 160 due to 323 out of 1075 dropped probes since last increase.
+Increasing send delay for 10.10.11.87 from 160 to 320 due to 308 out of 1025 dropped probes since last increase.
+Increasing send delay for 10.10.11.87 from 320 to 640 due to 308 out of 1026 dropped probes since last increase.
+Nmap scan report for 10.10.11.87
+Host is up, received user-set (0.20s latency).
+Scanned at 2025-12-09 01:38:58 -04 for 19s
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE REASON
+22/tcp open  ssh     syn-ack ttl 63
+
+Read data files from: /usr/share/nmap
+# Nmap done at Tue Dec  9 01:39:17 2025 -- 1 IP address (1 host up) scanned in 19.26 seconds
