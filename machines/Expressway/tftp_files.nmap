@@ -1,0 +1,10 @@
+# Nmap 7.95 scan initiated Tue Dec  9 01:47:33 2025 as: /usr/lib/nmap/nmap -sU -p 69 --script tftp-enum -oN tftp_files.nmap 10.10.11.87
+Nmap scan report for 10.10.11.87
+Host is up (0.14s latency).
+
+PORT   STATE SERVICE
+69/udp open  tftp
+| tftp-enum: 
+|_  ciscortr.cfg
+
+# Nmap done at Tue Dec  9 01:48:57 2025 -- 1 IP address (1 host up) scanned in 84.10 seconds
