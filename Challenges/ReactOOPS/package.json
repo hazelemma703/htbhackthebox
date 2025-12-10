@@ -1,0 +1,15 @@
+{
+  "name": "reactoops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "POC.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "form-data": "^4.0.5"
+  }
+}
