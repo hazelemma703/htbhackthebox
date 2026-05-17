@@ -1,0 +1,15 @@
+# Nmap 7.95 scan initiated Sat Feb 14 15:17:31 2026 as: /usr/lib/nmap/nmap -sC -sV -Pn -oN services_scann.nmap 10.129.1.167
+Nmap scan report for 10.129.1.167
+Host is up (0.13s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 9.2p1 Debian 2+deb12u7 (protocol 2.0)
+| ssh-hostkey: 
+|   256 a1:fa:95:8b:d7:56:03:85:e4:45:c9:c7:1e:ba:28:3b (ECDSA)
+|_  256 9c:ba:21:1a:97:2f:3a:64:73:c1:4c:1d:ce:65:7a:2f (ED25519)
+80/tcp open  http    Apache httpd 2.4.66
+|_http-title: Did not follow redirect to http://wingdata.htb/
+Service Info: Host: localhost; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Feb 14 15:18:08 2026 -- 1 IP address (1 host up) scanned in 36.92 seconds
