@@ -1,0 +1,9 @@
+# Nmap 7.95 scan initiated Mon May 25 02:06:13 2026 as: /usr/lib/nmap/nmap --privileged -p22,3000 "--script=vuln and safe" -n -Pn -oN nmap/scripts.nmap 10.129.3.227
+Nmap scan report for 10.129.3.227
+Host is up (0.13s latency).
+
+PORT     STATE SERVICE
+22/tcp   open  ssh
+3000/tcp open  ppp
+
+# Nmap done at Mon May 25 02:06:14 2026 -- 1 IP address (1 host up) scanned in 1.32 seconds

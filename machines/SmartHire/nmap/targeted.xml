@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Sun May 17 23:02:44 2026 as: /usr/lib/nmap/nmap -&#45;privileged -p22,80 -sCV -n -Pn -vvv -oN ./nmap/targeted.nmap -oX ./nmap/targeted.xml 10.129.35.138 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -p22,80 -sCV -n -Pn -vvv -oN ./nmap/targeted.nmap -oX ./nmap/targeted.xml 10.129.35.138" start="1779073364" startstr="Sun May 17 23:02:44 2026" version="7.95" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="2" services="22,80"/>
+<verbose level="3"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1779073364"/>
+<taskend task="NSE" time="1779073364"/>
+<taskbegin task="NSE" time="1779073364"/>
+<taskend task="NSE" time="1779073364"/>
+<taskbegin task="NSE" time="1779073364"/>
+<taskend task="NSE" time="1779073364"/>
+<taskbegin task="SYN Stealth Scan" time="1779073364"/>
+<taskend task="SYN Stealth Scan" time="1779073364" extrainfo="2 total ports"/>
+<taskbegin task="Service scan" time="1779073364"/>
+<taskend task="Service scan" time="1779073370" extrainfo="2 services on 1 host"/>
+<taskbegin task="NSE" time="1779073370"/>
+<taskend task="NSE" time="1779073374"/>
+<taskbegin task="NSE" time="1779073374"/>
+<taskend task="NSE" time="1779073375"/>
+<taskbegin task="NSE" time="1779073375"/>
+<taskend task="NSE" time="1779073375"/>
+<host starttime="1779073364" endtime="1779073375"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.129.35.138" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ssh" product="OpenSSH" version="8.9p1 Ubuntu 3ubuntu0.15" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.9p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  256 41:3c:e3:bb:88:70:99:7f:b8:96:59:48:9b:85:98:69 (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLg1Y2xxe0euIHDjjKTIrxL+XZXgsBabs0FMAMKBL8arUuELui3vhlkgcDVGcZ4vFWnsiu4osw5INjfcQGkp2BY=&#xa;  256 d5:9d:fd:6b:be:d8:39:6f:3f:43:ab:0e:f6:3e:22:db (ED25519)&#xa;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPc/kqsR+WxwGPMNTukcYPjzZRGjQL6N+0HsGIS1NV4U"><table>
+<elem key="fingerprint">413ce3bb8870997fb89659489b859869</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLg1Y2xxe0euIHDjjKTIrxL+XZXgsBabs0FMAMKBL8arUuELui3vhlkgcDVGcZ4vFWnsiu4osw5INjfcQGkp2BY=</elem>
+<elem key="bits">256</elem>
+</table>
+<table>
+<elem key="fingerprint">d59dfd6bbed8396f3f43ab0ef63e22db</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIPc/kqsR+WxwGPMNTukcYPjzZRGjQL6N+0HsGIS1NV4U</elem>
+<elem key="bits">256</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" product="nginx" version="1.18.0" extrainfo="Ubuntu" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.18.0</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD POST OPTIONS"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-server-header" output="nginx/1.18.0 (Ubuntu)"><elem>nginx/1.18.0 (Ubuntu)</elem>
+</script><script id="http-title" output="Did not follow redirect to http://smarthire.htb/"><elem key="redirect_url">http://smarthire.htb/</elem>
+</script></port>
+</ports>
+<times srtt="131455" rttvar="98611" to="525899"/>
+</host>
+<taskbegin task="NSE" time="1779073375"/>
+<taskend task="NSE" time="1779073375"/>
+<taskbegin task="NSE" time="1779073375"/>
+<taskend task="NSE" time="1779073375"/>
+<taskbegin task="NSE" time="1779073375"/>
+<taskend task="NSE" time="1779073375"/>
+<runstats><finished time="1779073375" timestr="Sun May 17 23:02:55 2026" summary="Nmap done at Sun May 17 23:02:55 2026; 1 IP address (1 host up) scanned in 11.24 seconds" elapsed="11.24" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
