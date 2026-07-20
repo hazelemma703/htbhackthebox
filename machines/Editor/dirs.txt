@@ -1,0 +1,4 @@
+# Dirsearch started Thu Dec 11 22:15:11 2025 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://editor.htb/ -x 404 -o dirs.txt
+
+301   178B   http://editor.htb/assets    -> REDIRECTS TO: http://editor.htb/assets/
+403   564B   http://editor.htb/assets/

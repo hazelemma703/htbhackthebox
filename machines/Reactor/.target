@@ -1,0 +1,4 @@
+TARGET_NAME="${name}"
+TARGET_IP="${ip:-}"
+TARGET_DATE="$(date '+%Y-%m-%d')"
+TARGET_HOSTNAME="${name,,}.htb"

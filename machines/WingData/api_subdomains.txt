@@ -1,0 +1,11 @@
+api
+data
+internal
+dev
+test
+backend
+portal
+query
+service
+preview
+admin
