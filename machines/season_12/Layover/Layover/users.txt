@@ -1,0 +1,11 @@
+airside
+airport
+pilot
+crew
+gate
+baggage
+flight
+terminal
+tower
+ops
+control

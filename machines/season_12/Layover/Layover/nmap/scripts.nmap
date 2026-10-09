@@ -1,0 +1,10 @@
+# Nmap 7.99 scan initiated Sun Sep 27 11:05:16 2026 as: /usr/lib/nmap/nmap --privileged -p22,3389 "--script=vuln and safe" -n -Pn -oN ./nmap/scripts.nmap 10.129.5.236
+Nmap scan report for 10.129.5.236
+Host is up (0.13s latency).
+
+PORT     STATE SERVICE
+22/tcp   open  ssh
+3389/tcp open  ms-wbt-server
+|_ssl-ccs-injection: No reply from server (TIMEOUT)
+
+# Nmap done at Sun Sep 27 11:05:24 2026 -- 1 IP address (1 host up) scanned in 8.60 seconds

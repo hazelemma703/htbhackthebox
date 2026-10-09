@@ -1,0 +1,17 @@
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-10-09 06:51 +0000
+Initiating SYN Stealth Scan at 06:51
+Scanning 192.168.89.239 [65535 ports]
+Discovered open port 80/tcp on 192.168.89.239
+Discovered open port 4512/tcp on 192.168.89.239
+Completed SYN Stealth Scan at 06:51, 0.98s elapsed (65535 total ports)
+Nmap scan report for 192.168.89.239
+Host is up, received user-set (0.00042s latency).
+Scanned at 2026-10-09 06:51:29 UTC for 1s
+Not shown: 65533 closed tcp ports (reset)
+PORT     STATE SERVICE REASON
+80/tcp   open  http    syn-ack ttl 63
+4512/tcp open  unknown syn-ack ttl 63
+
+Read data files from: /usr/share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 1.06 seconds
+           Raw packets sent: 65574 (2.885MB) | Rcvd: 65535 (2.621MB)

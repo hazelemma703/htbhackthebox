@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.99 scan initiated Sun Sep 27 11:04:58 2026 as: /usr/lib/nmap/nmap -&#45;privileged -p22,3389 -sCV -n -Pn -vvv -oN ./nmap/targeted.nmap -oX ./nmap/targeted.xml 10.129.5.236 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -p22,3389 -sCV -n -Pn -vvv -oN ./nmap/targeted.nmap -oX ./nmap/targeted.xml 10.129.5.236" start="1790521498" startstr="Sun Sep 27 11:04:58 2026" version="7.99" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="2" services="22,3389"/>
+<verbose level="3"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1790521499"/>
+<taskend task="NSE" time="1790521499"/>
+<taskbegin task="NSE" time="1790521499"/>
+<taskend task="NSE" time="1790521499"/>
+<taskbegin task="NSE" time="1790521499"/>
+<taskend task="NSE" time="1790521499"/>
+<taskbegin task="SYN Stealth Scan" time="1790521499"/>
+<taskend task="SYN Stealth Scan" time="1790521499" extrainfo="2 total ports"/>
+<taskbegin task="Service scan" time="1790521499"/>
+<taskend task="Service scan" time="1790521510" extrainfo="2 services on 1 host"/>
+<taskbegin task="NSE" time="1790521510"/>
+<taskend task="NSE" time="1790521514"/>
+<taskbegin task="NSE" time="1790521514"/>
+<taskend task="NSE" time="1790521516"/>
+<taskbegin task="NSE" time="1790521516"/>
+<taskend task="NSE" time="1790521516"/>
+<host starttime="1790521499" endtime="1790521516"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.129.5.236" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ssh" product="OpenSSH" version="9.6p1 Ubuntu 3ubuntu13.19" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:9.6p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  256 0c:4b:d2:76:ab:10:06:92:05:dc:f7:55:94:7f:18:df (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBN9Ju3bTZsFozwXY1B2KIlEY4BA+RcNM57w4C5EjOw1QegUUyCJoO4TVOKfzy/9kd3WrPEj/FYKT2agja9/PM44=&#xa;  256 2d:6d:4a:4c:ee:2e:11:b6:c8:90:e6:83:e9:df:38:b0 (ED25519)&#xa;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH9qI0OvMyp03dAGXR0UPdxw7hjSwMR773Yb9Sne+7vD"><table>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBN9Ju3bTZsFozwXY1B2KIlEY4BA+RcNM57w4C5EjOw1QegUUyCJoO4TVOKfzy/9kd3WrPEj/FYKT2agja9/PM44=</elem>
+<elem key="bits">256</elem>
+<elem key="fingerprint">0c4bd276ab10069205dcf755947f18df</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+</table>
+<table>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIH9qI0OvMyp03dAGXR0UPdxw7hjSwMR773Yb9Sne+7vD</elem>
+<elem key="bits">256</elem>
+<elem key="fingerprint">2d6d4a4cee2e11b6c890e683e9df38b0</elem>
+<elem key="type">ssh-ed25519</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="3389"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ms-wbt-server" product="Microsoft Terminal Service" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="132026" rttvar="99033" to="528158"/>
+</host>
+<taskbegin task="NSE" time="1790521516"/>
+<taskend task="NSE" time="1790521516"/>
+<taskbegin task="NSE" time="1790521516"/>
+<taskend task="NSE" time="1790521516"/>
+<taskbegin task="NSE" time="1790521516"/>
+<taskend task="NSE" time="1790521516"/>
+<runstats><finished time="1790521516" timestr="Sun Sep 27 11:05:16 2026" summary="Nmap done at Sun Sep 27 11:05:16 2026; 1 IP address (1 host up) scanned in 17.50 seconds" elapsed="17.50" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,5 @@
+# Nmap 7.99 scan initiated Sun Sep 27 11:04:42 2026 as: /usr/lib/nmap/nmap --privileged -p- --open --min-rate 5000 -n -Pn -vvv -oG ./nmap/allPorts.gnmap -oN ./nmap/allPorts.nmap 10.129.5.236
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.129.5.236 ()	Status: Up
+Host: 10.129.5.236 ()	Ports: 22/open/tcp//ssh///, 3389/open/tcp//ms-wbt-server///
+# Nmap done at Sun Sep 27 11:04:58 2026 -- 1 IP address (1 host up) scanned in 15.84 seconds

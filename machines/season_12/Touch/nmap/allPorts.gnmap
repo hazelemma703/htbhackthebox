@@ -1,0 +1,5 @@
+# Nmap 7.99 scan initiated Mon Oct  5 03:27:23 2026 as: /usr/lib/nmap/nmap --privileged -p- --open --min-rate 5000 -n -Pn -vvv -oG ./nmap/allPorts.gnmap -oN ./nmap/allPorts.nmap 10.129.11.184
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.129.11.184 ()	Status: Up
+Host: 10.129.11.184 ()	Ports: 135/open/tcp//msrpc///, 3389/open/tcp//ms-wbt-server///, 5985/open/tcp//wsman///, 8443/open/tcp//https-alt///	Ignored State: filtered (65531)
+# Nmap done at Mon Oct  5 03:27:49 2026 -- 1 IP address (1 host up) scanned in 26.55 seconds

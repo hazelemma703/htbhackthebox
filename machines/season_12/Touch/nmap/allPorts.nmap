@@ -1,0 +1,14 @@
+# Nmap 7.99 scan initiated Mon Oct  5 03:27:23 2026 as: /usr/lib/nmap/nmap --privileged -p- --open --min-rate 5000 -n -Pn -vvv -oG ./nmap/allPorts.gnmap -oN ./nmap/allPorts.nmap 10.129.11.184
+Nmap scan report for 10.129.11.184
+Host is up, received user-set (0.14s latency).
+Scanned at 2026-10-05 03:27:23 EDT for 26s
+Not shown: 65531 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE       REASON
+135/tcp  open  msrpc         syn-ack ttl 127
+3389/tcp open  ms-wbt-server syn-ack ttl 127
+5985/tcp open  wsman         syn-ack ttl 127
+8443/tcp open  https-alt     syn-ack ttl 127
+
+Read data files from: /usr/share/nmap
+# Nmap done at Mon Oct  5 03:27:49 2026 -- 1 IP address (1 host up) scanned in 26.55 seconds

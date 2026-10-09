@@ -1,0 +1,16 @@
+# Nmap 7.99 scan initiated Mon Oct  5 03:29:12 2026 as: /usr/lib/nmap/nmap --privileged -p135,3389,5985,8443 "--script=vuln and safe" -n -Pn -oN ./nmap/scripts.nmap 10.129.11.184
+Nmap scan report for 10.129.11.184
+Host is up (0.13s latency).
+
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+3389/tcp open  ms-wbt-server
+|_ssl-ccs-injection: No reply from server (TIMEOUT)
+5985/tcp open  wsman
+8443/tcp open  https-alt
+|_http-vuln-cve2017-1001000: ERROR: Script execution failed (use -d to debug)
+| http-vuln-cve2010-0738: 
+|_  /jmx-console/: Authentication was not required
+|_ssl-ccs-injection: No reply from server (TIMEOUT)
+
+# Nmap done at Mon Oct  5 03:31:18 2026 -- 1 IP address (1 host up) scanned in 125.93 seconds

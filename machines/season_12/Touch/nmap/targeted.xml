@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.99 scan initiated Mon Oct  5 03:27:49 2026 as: /usr/lib/nmap/nmap -&#45;privileged -p135,3389,5985,8443 -sCV -n -Pn -vvv -oN ./nmap/targeted.nmap -oX ./nmap/targeted.xml 10.129.11.184 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -p135,3389,5985,8443 -sCV -n -Pn -vvv -oN ./nmap/targeted.nmap -oX ./nmap/targeted.xml 10.129.11.184" start="1791185269" startstr="Mon Oct  5 03:27:49 2026" version="7.99" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="4" services="135,3389,5985,8443"/>
+<verbose level="3"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1791185269"/>
+<taskend task="NSE" time="1791185269"/>
+<taskbegin task="NSE" time="1791185269"/>
+<taskend task="NSE" time="1791185269"/>
+<taskbegin task="NSE" time="1791185269"/>
+<taskend task="NSE" time="1791185269"/>
+<taskbegin task="SYN Stealth Scan" time="1791185269"/>
+<taskend task="SYN Stealth Scan" time="1791185270" extrainfo="4 total ports"/>
+<taskbegin task="Service scan" time="1791185270"/>
+<taskend task="Service scan" time="1791185281" extrainfo="4 services on 1 host"/>
+<taskbegin task="NSE" time="1791185281"/>
+<taskend task="NSE" time="1791185288"/>
+<taskbegin task="NSE" time="1791185288"/>
+<taskprogress task="NSE" time="1791185319" percent="93.75" remaining="3" etc="1791185321"/>
+<taskprogress task="NSE" time="1791185349" percent="96.88" remaining="2" etc="1791185351"/>
+<taskend task="NSE" time="1791185352"/>
+<taskbegin task="NSE" time="1791185352"/>
+<taskend task="NSE" time="1791185352"/>
+<host starttime="1791185269" endtime="1791185352"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.129.11.184" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="3389"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="ms-wbt-server" product="Microsoft Terminal Service" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-title" output="Not Found"><elem key="title">Not Found</elem>
+</script><script id="http-server-header" output="Microsoft-HTTPAPI/2.0"><elem>Microsoft-HTTPAPI/2.0</elem>
+</script></port>
+<port protocol="tcp" portid="8443"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-trane-info" output="Problem with XML parsing of /evox/about"/><script id="http-cors" output="GET POST PUT OPTIONS"/><script id="http-title" output="Nexion DeviceHub - Login&#xa;Requested resource was /login"><elem key="title">Nexion DeviceHub - Login</elem>
+<elem key="redirect_url">/login</elem>
+</script><script id="http-server-header" output="Microsoft-HTTPAPI/2.0"><elem>Microsoft-HTTPAPI/2.0</elem>
+</script><script id="http-favicon" output="Unknown favicon MD5: 3ED9B25E54B8EC721B21AD7D869875D0"/><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD POST OPTIONS"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script></port>
+</ports>
+<times srtt="131128" rttvar="55430" to="352848"/>
+</host>
+<taskbegin task="NSE" time="1791185352"/>
+<taskend task="NSE" time="1791185352"/>
+<taskbegin task="NSE" time="1791185352"/>
+<taskend task="NSE" time="1791185352"/>
+<taskbegin task="NSE" time="1791185352"/>
+<taskend task="NSE" time="1791185352"/>
+<runstats><finished time="1791185352" timestr="Mon Oct  5 03:29:12 2026" summary="Nmap done at Mon Oct  5 03:29:12 2026; 1 IP address (1 host up) scanned in 82.54 seconds" elapsed="82.54" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

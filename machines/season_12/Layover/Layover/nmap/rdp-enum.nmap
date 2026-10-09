@@ -1,0 +1,18 @@
+# Nmap 7.99 scan initiated Sun Sep 27 11:18:36 2026 as: /usr/lib/nmap/nmap --script "rdp-enum-encryption or rdp-vuln-ms12-020 or rdp-ntlm-info" -p 3389 -T4 -oN nmap/rdp-enum.nmap 10.129.5.236
+Nmap scan report for layover.htb (10.129.5.236)
+Host is up (0.13s latency).
+
+PORT     STATE SERVICE
+3389/tcp open  ms-wbt-server
+| rdp-enum-encryption: 
+|   Security layer
+|     CredSSP (NLA): SUCCESS
+|     CredSSP with Early User Auth: SUCCESS
+|     Native RDP: SUCCESS
+|     RDSTLS: SUCCESS
+|     SSL: SUCCESS
+|   RDP Encryption level: High
+|     128-bit RC4: SUCCESS
+|_  RDP Protocol Version:  RDP 5.x, 6.x, 7.x, or 8.x server
+
+# Nmap done at Sun Sep 27 11:18:42 2026 -- 1 IP address (1 host up) scanned in 5.83 seconds
