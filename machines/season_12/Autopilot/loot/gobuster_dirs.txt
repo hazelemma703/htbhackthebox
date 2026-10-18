@@ -1,0 +1,10 @@
+files               [36m (Status: 301)[0m [Size: 162][34m [--> https://grommunio.autopilot.htb/files/][0m
+web                 [36m (Status: 301)[0m [Size: 162][34m [--> https://grommunio.autopilot.htb/web/][0m
+david               [33m (Status: 401)[0m [Size: 354]
+dave                [33m (Status: 401)[0m [Size: 354]
+dav                 [33m (Status: 401)[0m [Size: 354]
+davinci             [33m (Status: 401)[0m [Size: 354]
+davidlu             [33m (Status: 401)[0m [Size: 354]
+davidsbridal        [33m (Status: 401)[0m [Size: 354]
+webserver           [36m (Status: 301)[0m [Size: 162][34m [--> https://grommunio.autopilot.htb/webserver/][0m
+davis               [33m (Status: 401)[0m [Size: 354]

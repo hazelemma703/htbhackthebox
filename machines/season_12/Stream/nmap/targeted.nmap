@@ -1,0 +1,27 @@
+# Nmap 7.99 scan initiated Sat Oct 10 15:48:28 2026 as: /usr/lib/nmap/nmap --privileged -p22,80,8081 -sCV -n -Pn -vvv -oN ./nmap/targeted.nmap -oX ./nmap/targeted.xml 10.129.13.197
+Nmap scan report for 10.129.13.197
+Host is up, received user-set (0.13s latency).
+Scanned at 2026-10-10 15:48:29 EDT for 18s
+
+PORT     STATE SERVICE REASON         VERSION
+22/tcp   open  ssh     syn-ack ttl 63 OpenSSH 9.6p1 Ubuntu 3ubuntu13.19 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 0c:4b:d2:76:ab:10:06:92:05:dc:f7:55:94:7f:18:df (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBN9Ju3bTZsFozwXY1B2KIlEY4BA+RcNM57w4C5EjOw1QegUUyCJoO4TVOKfzy/9kd3WrPEj/FYKT2agja9/PM44=
+|   256 2d:6d:4a:4c:ee:2e:11:b6:c8:90:e6:83:e9:df:38:b0 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH9qI0OvMyp03dAGXR0UPdxw7hjSwMR773Yb9Sne+7vD
+80/tcp   open  http    syn-ack ttl 63 nginx 1.24.0 (Ubuntu)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Did not follow redirect to http://api.htb-airport.htb/
+|_http-server-header: nginx/1.24.0 (Ubuntu)
+8081/tcp open  http    syn-ack ttl 63 Uvicorn
+|_http-title: Site doesn't have a title (application/json).
+|_http-server-header: uvicorn
+| http-methods: 
+|_  Supported Methods: GET
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Oct 10 15:48:47 2026 -- 1 IP address (1 host up) scanned in 19.23 seconds

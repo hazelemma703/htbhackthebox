@@ -1,0 +1,4 @@
+plugins             [36m (Status: 301)[0m [Size: 162][34m [--> https://grommunio.autopilot.htb/web/plugins/][0m
+client              [36m (Status: 301)[0m [Size: 162][34m [--> https://grommunio.autopilot.htb/web/client/][0m
+server              [36m (Status: 301)[0m [Size: 162][34m [--> https://grommunio.autopilot.htb/web/server/][0m
+version             [32m (Status: 200)[0m [Size: 18]

@@ -1,0 +1,4 @@
+TARGET_NAME="Orion"
+TARGET_IP="10.129.135.178"
+TARGET_DATE="$(date '+%Y-%m-%d')"
+TARGET_HOSTNAME="orion.htb"

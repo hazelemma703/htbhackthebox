@@ -1,0 +1,4 @@
+# Nmap 7.99 scan initiated Fri Oct 16 19:58:34 2026 as: /usr/lib/nmap/nmap --top-ports 20 -sU --open -n -Pn -oN ./nmap/udp.nmap -oG ./nmap/udp.gnmap 10.129.135.178
+Host: 10.129.135.178 ()	Status: Up
+Host: 10.129.135.178 ()	Ports: 53/open|filtered/udp//domain///, 68/open|filtered/udp//dhcpc///, 123/open|filtered/udp//ntp///, 135/open|filtered/udp//msrpc///, 500/open|filtered/udp//isakmp///, 520/open|filtered/udp//route///, 1900/open|filtered/udp//upnp///	Ignored State: closed (13)
+# Nmap done at Fri Oct 16 19:58:44 2026 -- 1 IP address (1 host up) scanned in 10.02 seconds

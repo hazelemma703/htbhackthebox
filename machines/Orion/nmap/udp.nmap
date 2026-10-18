@@ -1,0 +1,14 @@
+# Nmap 7.99 scan initiated Fri Oct 16 19:58:34 2026 as: /usr/lib/nmap/nmap --top-ports 20 -sU --open -n -Pn -oN ./nmap/udp.nmap -oG ./nmap/udp.gnmap 10.129.135.178
+Nmap scan report for 10.129.135.178
+Host is up (0.14s latency).
+Not shown: 13 closed udp ports (port-unreach)
+PORT     STATE         SERVICE
+53/udp   open|filtered domain
+68/udp   open|filtered dhcpc
+123/udp  open|filtered ntp
+135/udp  open|filtered msrpc
+500/udp  open|filtered isakmp
+520/udp  open|filtered route
+1900/udp open|filtered upnp
+
+# Nmap done at Fri Oct 16 19:58:44 2026 -- 1 IP address (1 host up) scanned in 10.02 seconds

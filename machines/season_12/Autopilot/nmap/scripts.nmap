@@ -1,0 +1,10 @@
+# Nmap 7.99 scan initiated Sat Oct 17 21:46:27 2026 as: /usr/lib/nmap/nmap --privileged -p443 "--script=vuln and safe" -n -Pn -oN ./nmap/scripts.nmap 10.129.16.212
+Nmap scan report for 10.129.16.212
+Host is up (0.27s latency).
+
+PORT    STATE SERVICE
+443/tcp open  https
+| http-internal-ip-disclosure: 
+|_  Internal IP Leaked: 172.16.20.10
+
+# Nmap done at Sat Oct 17 21:47:29 2026 -- 1 IP address (1 host up) scanned in 62.20 seconds

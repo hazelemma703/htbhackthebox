@@ -1,0 +1,4 @@
+TARGET_NAME="Autopilot"
+TARGET_IP="10.129.16.212"
+TARGET_DATE="$(date '+%Y-%m-%d')"
+TARGET_HOSTNAME="autopilot.htb"
