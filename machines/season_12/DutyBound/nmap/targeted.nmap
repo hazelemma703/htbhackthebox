@@ -1,0 +1,61 @@
+# Nmap 7.99 scan initiated Mon Oct 26 17:58:23 2026 as: /usr/lib/nmap/nmap --privileged -p22,80,443 -sCV -n -Pn -vvv -oN ./nmap/targeted.nmap -oX ./nmap/targeted.xml 10.129.20.177
+Nmap scan report for 10.129.20.177
+Host is up, received user-set (0.18s latency).
+Scanned at 2026-10-26 17:58:23 EDT for 28s
+
+PORT    STATE SERVICE  REASON         VERSION
+22/tcp  open  ssh      syn-ack ttl 63 OpenSSH 8.9p1 Ubuntu 3ubuntu0.18 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 3e:ea:45:4b:c5:d1:6d:6f:e2:d4:d1:3b:0a:3d:a9:4f (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJ+m7rYl1vRtnm789pH3IRhxI4CNCANVj+N5kovboNzcw9vHsBwvPX3KYA3cxGbKiA0VqbKRpOHnpsMuHEXEVJc=
+|   256 64:cc:75:de:4a:e6:a5:b4:73:eb:3f:1b:cf:b4:e3:94 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOtuEdoYxTohG80Bo6YCqSzUY9+qbnAFnhsk4yAZNqhM
+80/tcp  open  http     syn-ack ttl 63 nginx 1.18.0 (Ubuntu)
+|_http-server-header: nginx/1.18.0 (Ubuntu)
+|_http-title: Did not follow redirect to https://airsnacks.htb/
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+443/tcp open  ssl/http syn-ack ttl 63 nginx 1.18.0 (Ubuntu)
+| tls-alpn: 
+|_  http/1.1
+|_http-title: Welcome \xC2\xB7 AirSnacks Self-Checkout
+|_ssl-date: TLS randomness does not represent time
+|_http-server-header: nginx/1.18.0 (Ubuntu)
+| http-methods: 
+|_  Supported Methods: GET OPTIONS HEAD
+| ssl-cert: Subject: commonName=airsnacks.htb
+| Issuer: commonName=airsnacks.htb
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-08-26T08:17:18
+| Not valid after:  2126-08-02T08:17:18
+| MD5:     92f2 09e0 42c0 a192 764c a405 9309 aeda
+| SHA-1:   ebe4 fd3a 6ebd eb87 2399 e567 bbd9 d95f 9b8a 98bd
+| SHA-256: 76b0 4f78 36d9 e72a ddd7 6569 b866 6a86 0d75 8487 f466 3ebb 621b b8a9 4043 6e0e
+| -----BEGIN CERTIFICATE-----
+| MIIDEzCCAfugAwIBAgIUWyn7SleT6ttkxzKQOKD464NfBQwwDQYJKoZIhvcNAQEL
+| BQAwGDEWMBQGA1UEAwwNYWlyc25hY2tzLmh0YjAgFw0yNjA4MjYwODE3MThaGA8y
+| MTI2MDgwMjA4MTcxOFowGDEWMBQGA1UEAwwNYWlyc25hY2tzLmh0YjCCASIwDQYJ
+| KoZIhvcNAQEBBQADggEPADCCAQoCggEBAJc9s7ejUJJiE0d2OfPpg9Lpg2QQliaY
+| HN9/gAHxzrXIlPmMHlVr5rldAw2s9Gp+GIobz8AsVNGqtJi+wOBw3NjqW3MduoN6
+| hq118/sF8Jjo0rSdiDB2chhh35/lRdxKDHWkVp5bqFTx+jE2yGV24Sb+2iwZFGmF
+| VXWOu+RSD43yF74BOCO92J/IpnzUxHIsHj2W5Gxl8QugSjjIbvrbxpw7BSYv1oLQ
+| mZfS79/mbxTVonnAx+1UoyO4/YxsaroyTCa/Amh+PpYuokv5mtbou2xUTxFYI70q
+| MyoP5Eez2lnerXNu7XAx+/jH/aFhImXE1iHMFhd/lAPADJ2cot59EscCAwEAAaNT
+| MFEwHQYDVR0OBBYEFMZbxBqUsZHfYsdDoZXHkZjTWsAIMB8GA1UdIwQYMBaAFMZb
+| xBqUsZHfYsdDoZXHkZjTWsAIMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQEL
+| BQADggEBAE107NQJerwmZTtawyUXk5y0nutAa/hxEefEGKfQ/J7M+TVpVMUe3Q3H
+| HREV/6MSRfsvngFRPGYrjF+1wJuhyqLvPb+UKA+cjgrWj7ds4pXHZx+dsQYxN7xP
+| jGbsmf6DKJkN3Gt/9+aY89vaKaUxTFvGUCTqF7Hy9iHKOjRquwnw8hwj8XfpSkEZ
+| +O/Z7HWKVhHHli5zAvKu3vDJoAgnd6MjfBpfWNqdIxT1k9MoO/RNsjJzuD4GLYt9
+| x1gvZjFamv8JS6VXr3MwOMKRx6NukcP3cH4+aVyWSc258IAVXWJ3cESsyncgd0i5
+| sWBIRz3hWJNcBWO95DKiqDa4gTHeUDA=
+|_-----END CERTIFICATE-----
+| tls-nextprotoneg: 
+|_  http/1.1
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Oct 26 17:58:51 2026 -- 1 IP address (1 host up) scanned in 27.63 seconds
